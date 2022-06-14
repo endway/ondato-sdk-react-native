@@ -8,12 +8,12 @@ import { TFunction } from 'i18next';
 import PrimaryText from './PrimaryText';
 import Svg, { IconName } from './Svg';
 
-interface Props {
+export interface DocumentsListItemProps {
   id: DocumentId;
   onPress?: () => void;
 }
 
-const DocumentsListItem: FC<Props> = (props) => {
+const DocumentsListItem: FC<DocumentsListItemProps> = (props) => {
   const { id, onPress } = props;
   const theme = useTheme();
   const { t } = useTranslation();

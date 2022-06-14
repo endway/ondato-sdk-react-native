@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next';
 import { useTheme } from '@ondato/theme/hooks';
 import PrimaryText from './PrimaryText';
 
-interface Props {
+export interface FullScreenLoaderProps {
   style?: StyleProp<ViewStyle>;
   isVisible: boolean;
 }
@@ -16,7 +16,7 @@ interface Props {
 const visibleZIndex = 999;
 const hiddenZIndex = -1;
 
-const FullScreenLoader: FC<Props> = (props) => {
+const FullScreenLoader: FC<FullScreenLoaderProps> = (props) => {
   const { style, isVisible } = props;
   const { t } = useTranslation();
 

@@ -3,12 +3,12 @@ import { StyleProp, StyleSheet, View, ViewStyle } from 'react-native';
 import { Theme } from '@ondato/theme/types';
 import { useThemeAwareObject } from '@ondato/theme/hooks';
 
-interface Props {
+export interface ProgressBarProps {
   progress: number;
   style?: StyleProp<ViewStyle>;
 }
 
-const ProgressBar: FC<Props> = (props) => {
+const ProgressBar: FC<ProgressBarProps> = (props) => {
   const { style, progress } = props;
   const themedStyles = useThemeAwareObject(styles);
 

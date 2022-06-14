@@ -6,7 +6,7 @@ import { center } from '@ondato/theme/common';
 
 type Variant = 'primary' | 'secondary';
 
-interface Props {
+export interface ButtonProps {
   label: string;
   onPress?: () => void;
   variant?: Variant;
@@ -15,7 +15,7 @@ interface Props {
   labelStyle?: StyleProp<TextStyle>;
 }
 
-const Button: FC<Props> = (props) => {
+const Button: FC<ButtonProps> = (props) => {
   const { label, onPress, variant = 'primary', style, labelStyle, disabled = false } = props;
   const themedVariants = useThemeAwareObject(variants(disabled));
   const themedStyles = useThemeAwareObject(styles);

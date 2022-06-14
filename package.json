@@ -15,10 +15,6 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "prepare": "bob build"
   },
-  "peerDependencies": {
-    "react": "*",
-    "react-native": "*"
-  },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.17.4",
     "@react-navigation/native": "^6.0.8",
@@ -29,9 +25,9 @@
     "i18next": "^21.6.14",
     "lottie-ios": "^3.2.3",
     "lottie-react-native": "^5.0.1",
-    "react": "*",
+    "react": "17.0.2",
     "react-i18next": "^11.16.1",
-    "react-native": "*",
+    "react-native": "0.67.4",
     "react-native-dotenv": "^3.3.1",
     "react-native-fs": "^2.20.0",
     "react-native-gesture-handler": "^2.3.2",

@@ -7,14 +7,14 @@ export interface Dimensions {
   y: number;
 }
 
-interface Props {
+export interface DimensionContainerProps {
   style?: StyleProp<ViewStyle>;
   dimensions?: Dimensions;
   children?: ReactNode;
   width?: number;
 }
 
-const DimensionContainer: FC<Props> = (props) => {
+const DimensionContainer: FC<DimensionContainerProps> = (props) => {
   const { style, dimensions = { x: 3, y: 2 }, children, width = DeviceUtils.windowWidth } = props;
 
   const containerStyle = useMemo<ViewStyle>(

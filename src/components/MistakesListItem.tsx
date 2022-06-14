@@ -6,11 +6,11 @@ import { useTheme } from '@ondato/theme/hooks';
 import PrimaryText from './PrimaryText';
 import Svg from './Svg';
 
-interface Props {
+export interface MistakesListItemProps {
   mistake: Mistake;
 }
 
-const MistakesListItem: FC<Props> = (props) => {
+const MistakesListItem: FC<MistakesListItemProps> = (props) => {
   const { mistake } = props;
   const theme = useTheme();
 

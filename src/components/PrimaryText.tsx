@@ -3,7 +3,7 @@ import { Text as RNText, TextProps, TextStyle } from 'react-native';
 import { Colors, Fonts, FontSizes } from '@ondato/theme/types';
 import { useTheme } from '@ondato/theme/hooks';
 
-interface Props extends TextProps {
+export interface PrimaryTextProps extends TextProps {
   fontSize?: keyof FontSizes;
   fontWeight?: keyof Fonts['primary'];
   color?: keyof Colors;
@@ -11,7 +11,7 @@ interface Props extends TextProps {
   children: string | React.ReactNode;
 }
 
-const PrimaryText: FC<Props> = (props) => {
+const PrimaryText: FC<PrimaryTextProps> = (props) => {
   const { children, center, fontSize = 's', color = 'text', fontWeight = 'regular', style, ...rest } = props;
   const theme = useTheme();
 

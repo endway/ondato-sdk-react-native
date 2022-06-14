@@ -9,7 +9,7 @@ import { useTheme, useThemeAwareObject } from '@ondato/theme/hooks';
 import DimensionContainer, { Dimensions } from './DimensionContainer';
 import Svg, { IconName } from './Svg';
 
-interface Props {
+export interface CameraProps {
   iconName?: IconName;
   iconHeight?: number;
   style?: StyleProp<ViewStyle>;
@@ -17,7 +17,7 @@ interface Props {
   isFrontCamera?: boolean;
 }
 
-const Camera = forwardRef<RNCamera, Props>((props, ref) => {
+const Camera = forwardRef<RNCamera, CameraProps>((props, ref) => {
   const { style, iconName, isFrontCamera = true, iconHeight = 0, cropDimensions = { x: 3, y: 2 } } = props;
 
   const { backDevice, frontDevice } = useCameraPermissions();

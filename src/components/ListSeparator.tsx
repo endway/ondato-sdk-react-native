@@ -3,13 +3,13 @@ import { StyleProp, TextStyle, View, ViewStyle } from 'react-native';
 import { Colors } from '@ondato/theme/types';
 import { useTheme } from '@ondato/theme/hooks';
 
-interface Props {
+export interface ListSeparatorProps {
   color?: keyof Colors;
   height?: number;
   style?: StyleProp<ViewStyle>;
 }
 
-const ListSeparator: FC<Props> = (props) => {
+const ListSeparator: FC<ListSeparatorProps> = (props) => {
   const { style, color = 'lightGrey', height = 2 } = props;
   const theme = useTheme();
 

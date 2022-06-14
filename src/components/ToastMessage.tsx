@@ -6,14 +6,14 @@ import { flex1, row } from '@ondato/theme/common';
 import Svg from './Svg';
 import PrimaryText from './PrimaryText';
 
-interface Props {
+export interface ToastMessageProps {
   onClose: () => void;
   title: string;
   style?: StyleProp<ViewStyle>;
   showDuration?: number;
 }
 
-const ToastMessage: FC<Props> = (props) => {
+const ToastMessage: FC<ToastMessageProps> = (props) => {
   const { onClose, title, style, showDuration = 5000 } = props;
 
   const theme = useTheme();

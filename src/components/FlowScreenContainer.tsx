@@ -9,13 +9,13 @@ import ScreenContainer from './ScreenContainer';
 import Container from './Container';
 import Svg from './Svg';
 
-interface Props {
+export interface FlowScreenContainerProps {
   children: React.ReactNode;
   isLoading?: boolean;
   style?: StyleProp<ViewStyle>;
 }
 
-const FlowScreenContainer: FC<Props> = (props) => {
+const FlowScreenContainer: FC<FlowScreenContainerProps> = (props) => {
   const { children, style, ...rest } = props;
   const theme = useTheme();
   const navigation = useNavigation<NavigationProp<RootStackParamList>>();

@@ -6,13 +6,13 @@ import { Theme } from '@ondato/theme/types';
 import { useThemeAwareObject } from '@ondato/theme/hooks';
 import FullScreenLoader from './FullScreenLoader';
 
-interface Props {
+export interface ScreenContainerProps {
   children: React.ReactNode;
   isLoading?: boolean;
   style?: StyleProp<ViewStyle>;
 }
 
-const ScreenContainer: FC<Props> = (props) => {
+const ScreenContainer: FC<ScreenContainerProps> = (props) => {
   const { children, style, isLoading = false } = props;
   const themedStyles = useThemeAwareObject(styles);
 
