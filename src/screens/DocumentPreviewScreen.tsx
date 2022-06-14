@@ -9,10 +9,10 @@ import {
   Svg,
 } from '@ondato/components';
 import { useTranslation } from 'react-i18next';
-import { center, flex1, fullImageHeight, row, spaceBetween } from '@ondato/theme/common';
-import { Image, ImageBackground, StyleSheet, View } from 'react-native';
+import { center, flex1, row, spaceBetween } from '@ondato/theme/common';
+import { ImageBackground, StyleSheet, View } from 'react-native';
 import { useUploadAdditionalDocument, useUploadDocument } from '@ondato/hooks';
-import { DeviceUtils, DimensionsUtils, FileUtils } from '@ondato/utils';
+import { DeviceUtils, FileUtils } from '@ondato/utils';
 import { useTheme } from '@ondato/theme/hooks';
 import { BaseDocumentId, DocumentSideId, DocumentVariant } from '@ondato/modules/kyc/types';
 import { useAppSelector } from '@ondato/core/store';
@@ -37,7 +37,10 @@ const DocumentPreviewScreen: FC<DocumentPreviewScreenProps> = (props) => {
   const { t } = useTranslation();
   const { uploadDocument, isLoading: isDocumentUploading } = useUploadDocument();
   const { uploadAdditionalDocument, isLoading: isAdditionalUploading } = useUploadAdditionalDocument();
-  const currentDocument = useMemo(() => documents.find((document) => document.id === variant.id), [variant]);
+  const currentDocument = useMemo(
+    () => documents.find((document) => document.id === variant.id),
+    [documents, variant.id]
+  );
   const imageWidth = useMemo(() => DeviceUtils.windowWidth - theme.sizes.l * 2, [theme]);
 
   const { iconName, dimensions } = useMemo(

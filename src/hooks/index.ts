@@ -7,7 +7,5 @@ export { default as useCompleteIdentification } from './useCompleteIdentificatio
 export { default as useUploadAdditionalDocument } from './useUploadAdditionalDocument';
 export { default as useStartScreenRecording } from './useStartScreenRecording';
 export { default as useStopScreenRecording } from './useStopScreenRecording';
-export { default as useIdentificationStatus } from './useIdentificationStatus';
 export { default as useResultsWaiting } from './useResultsWaiting';
 export { default as useLogging } from './useLogging';
-export { default as useFaceTec } from './useFaceTec';

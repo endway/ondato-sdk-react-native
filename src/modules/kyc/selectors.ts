@@ -47,5 +47,6 @@ export const selectIsSelfieWithDocumentEnabled = (state: RootState): boolean => 
 };
 
 export const selectIsSelfieEnabled = (state: RootState): boolean => {
-  return state.kyc.config.isSelfieEnabled;
+  console.log('isSelfieEnabled', state.kyc.config.isSelfieEnabled);
+  return false;
 };

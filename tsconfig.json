@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "commonjs",
-    "lib": ["es2017"],
+    "module": "esnext",
+    "lib": ["esnext"],
     "allowJs": true,
     "jsx": "react-native",
-    "noEmit": true,
+    "noEmit": false,
     "isolatedModules": true,
     "strict": true,
     "moduleResolution": "node",
@@ -13,8 +13,17 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "noStrictGenericChecks": false,
+    "noImplicitReturns": true,
+    "noImplicitUseStrict": false,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "forceConsistentCasingInFileNames": true,
     "baseUrl": "./",
     "paths": {
+      "ondato-sdk-react-native": ["./src/index"],
       "@ondato/assets/*": ["../assets/*"],
       "@ondato/api/*": ["src/api/*"],
       "@ondato/components": ["src/components"],
@@ -30,6 +39,6 @@
     }
   },
   "exclude": [
-    "node_modules", "babel.config.js", "metro.config.js", "jest.config.js"
+    "node_modules", "babel.config.js", "metro.config.js"
   ]
 }

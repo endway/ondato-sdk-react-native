@@ -6,5 +6,5 @@ export const selectFaceTecLicense = (state: RootState): FaceTecLicense | null =>
 };
 
 export const selectDeviceKeyIdentifier = (state: RootState): string | null => {
-  return 'dcFLBh5kyEFTZdGix1HUwW7EMkf1ABrF';
+  return state.faceTec.license?.key ?? null;
 };
