@@ -29,7 +29,7 @@ interface Props {
   theme?: ConfigurableTheme;
 }
 
-const App: FC<Props> = (props) => {
+const Index: FC<Props> = (props) => {
   const {
     identityVerificationId,
     locale = Locales.en,
@@ -82,4 +82,4 @@ const App: FC<Props> = (props) => {
   );
 };
 
-export default App;
+export default Index;
