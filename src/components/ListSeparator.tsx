@@ -1,0 +1,27 @@
+import React, { FC, useMemo } from 'react';
+import { StyleProp, TextStyle, View, ViewStyle } from 'react-native';
+import { Colors } from '@ondato/theme/types';
+import { useTheme } from '@ondato/theme/hooks';
+
+interface Props {
+  color?: keyof Colors;
+  height?: number;
+  style?: StyleProp<ViewStyle>;
+}
+
+const ListSeparator: FC<Props> = (props) => {
+  const { style, color = 'lightGrey', height = 2 } = props;
+  const theme = useTheme();
+
+  const themedStyle = useMemo<TextStyle>(
+    () => ({
+      backgroundColor: theme.colors[color],
+      height,
+    }),
+    [height, color, theme]
+  );
+
+  return <View style={[themedStyle, style]} />;
+};
+
+export default ListSeparator;

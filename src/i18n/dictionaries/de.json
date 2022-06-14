@@ -1,0 +1,133 @@
+{
+  "app": {
+    "onboarding": {
+      "title": "Willkommen bei dem Identitätsidentifizierungsprozess",
+      "description": "Um diesen Service weiterhin verwenden zu können, müssen Sie bestätigen, dass Sie die Anforderungen erfüllen. Der Überprüfungsprozess umfasst 3 Schritte.",
+      "choose_document": "Wählen Sie ein Dokument",
+      "take_a_photo_of_your_document": "Machen Sie ein Foto vom Dokument",
+      "take_a_selfie": "Scannen Sie Ihr Gesicht"
+    },
+    "consent": {
+      "title": "Zustimmung zur Verarbeitung personenbezogener Daten",
+      "subtitle1": "In einfachen Worten:",
+      "item1": "Um die Dienstleistungen nutzen zu können, müssen Sie eine Identitätsprüfung durchführen, bei der biometrische Daten Ihres Gesichs und Daten Ihres Ausweises mit einer Kamera erfasst und verarbeitet werden.",
+      "item2": "UAB „Ondato“ speichert die persönlichen Daten für nicht länger als vom Unternehmen verlangt, dessen Dienstleistungen Sie benutzen möchten.",
+      "item3": "Sie können immer eine Anfrage bezüglich Ihrer persönlichen Daten für umfassendere Informationen einreichen unter support@ondato.com oder die Richtlinie des Dienstleisters überprüfen.",
+      "subtitle2": "Gültige Fassung:",
+      "subtitle3": "Erforderliche Daten",
+      "paragraph1": "Um die Dienstleistung des Dienstleisters in Anspruch nehmen zu können, erkläre ich mich mit dieser Einwilligung damit einverstanden, dass UAB „Ondato“ meine personenbezogenen Daten, einschließlich meiner biometrischen Daten, die aus der Fernidentifizierung meiner persönlichen Identität durch die Aufnahme und/oder das Filmen des Live-Bildes meines Gesichts, der Identität meiner Person oder des zu ihrer Identifizierung verwendeten Dokuments und/oder ihres Bildes und der darin enthaltenen personenbezogenen Daten gewonnen wurden, erhält und verwaltet und/oder im Melderegister überprüft: Bild meines Gesichts, Name, Nachname, Staatsangehörigkeit, Geschlecht, Personencode, Geburtsdatum, Nummern des verwendeten Dokuments, Ausstellungsdatum und Gültigkeit, meine Unterschrift und die Übermittlung dieser Daten an den Dienstanbieter.",
+      "paragraph2": "",
+      "paragraph3": "Hiermit erkläre und bestätige ich, dass alle persönlichen Daten, die ich zum Zweck der Fernidentifizierung meiner persönlichen Identität angeben werde, richtig und genau sind, und dass das Dokument, das ich zu diesem Zweck verwenden werde, nicht falsch und gültig ist."
+    },
+    "quit_confirmation": {
+      "title": "Sind Sie sicher, dass Sie die Identitätsprüfung verlassen möchten?",
+      "description": "Alle Fortschritte, die Sie bei der Identitätsprüfung gemacht haben, werden verloren gehen."
+    },
+    "error": {
+      "title": "Ihre Identifizierung wird abgelehnt, weil das Dokument abgelaufen ist.",
+      "description": "Sie müssen ein gültiges Dokument erfassen, um den Identifikationsvorgang abzuschließen."
+    },
+    "success": {
+      "title": "Ihre Identifizierung ist erfolgreich.",
+      "description": "Vielen Dank für Ihre Geduld."
+    },
+    "document_selection": {
+      "title": "Dokument auswählen und Verifizierung starten"
+    },
+    "document_preview": {
+      "title": "Überprüfen Sie die Qualität des aufgenommenen Bildes",
+      "description": "Vergewissern Sie sich, dass das Foto auf dem erfassten Dokument deutlich sichtbar ist und die Daten lesbar sind. Wenn Sie der Meinung sind, dass die Bildqualität akzeptabel ist, klicken Sie bitte auf die Schaltfläche \"Weiter\"."
+    },
+    "document_preparation": {
+      "passport": {
+        "title": "Bitte erfassen Sie die Hauptdokumentenseite, die die MRZ-Zone enthält",
+        "description": "Bitte zeigen Sie die Hauptdokumentenseite, die die MRZ-Zone enthält, im markierten Bereich an und drücken Sie die Taste \"Aufnehmen\". Die Dokumentseite sollte deutlich sichtbar sein, nicht verschwommen oder verpixelt."
+      },
+      "selfie": {
+        "title": "Bitte Gesicht erfassen",
+        "description": "Zentrieren Sie Ihr Gesicht im Rahmen und stellen Sie sicher, dass Ihr Gesicht sichtbar und gleichmäßig beleuchtet ist."
+      },
+      "document_with_selfie": {
+        "title": "Machen Sie ein Bild von sich selbst mit Ihrem Ausweis in der Hand",
+        "description": "Halten Sie den Ausweis in der Nähe Ihres Gesichts, während Sie ein Selfie machen."
+      },
+      "id_card": {
+        "front": {
+          "title": "Bitte Vorderseite des Ausweises erfassen",
+          "description": "Bitte zeigen Sie die Vorderseite Ihres Ausweises in den markierten Bereich und drücken Sie die Taste \"Aufnehmen\". Das Dokument sollte deutlich sichtbar sein, nicht verschwommen oder verpixelt."
+        },
+        "back": {
+          "title": "Bitte Rückseite des Personalausweises erfassen",
+          "description": "Zeigen Sie die Rückseite des Ausweises in den markierten Bereich und drücken Sie die Taste \"Aufnehmen\". Stellen Sie sicher, dass die MRZ-Zone deutlich sichtbar ist und das Dokument nicht verschwommen oder verpixelt ist."
+        }
+      },
+      "driving_license": {
+        "front": {
+          "title": "Bitte erfassen Sie die Vorderseite des Führerscheins",
+          "description": "Bitte zeigen Sie die Vorderseite des Führerscheins in den markierten Bereich und drücken Sie die Taste \"Aufnehmen\". Das Foto des Führerscheins sollte deutlich sichtbar sein, nicht verschwommen oder verpixelt."
+        },
+        "back": {
+          "title": "Bitte erfassen Sie die Rückseite des Führerscheins",
+          "description": "Bitte zeigen Sie die Rückseite des Führerscheins in den markierten Bereich und drücken Sie die Taste \"Aufnehmen\". Der Führerschein sollte deutlich sichtbar sein, nicht verschwommen oder verpixelt."
+        }
+      }
+    },
+    "document_capture": {
+      "passport": {
+        "title": "Bitte erfassen Sie die Hauptdokumentenseite, die die MRZ-Zone enthält"
+      },
+      "selfie": {
+        "title": "Positionieren Sie Ihr Gesicht im Rahmen"
+      },
+      "document_with_selfie": {
+        "title": "Machen Sie ein Bild von sich selbst mit Ihrem Ausweis in der Hand"
+      },
+      "id_card": {
+        "front": {
+          "title": "Bitte Vorderseite des Ausweises erfassen"
+        },
+        "back": {
+          "title": "Bitte Rückseite des Personalausweises erfassen"
+        }
+      },
+      "driving_license": {
+        "front": {
+          "title": "Bitte erfassen Sie die Vorderseite des Führerscheins"
+        },
+        "back": {
+          "title": "Bitte erfassen Sie die Rückseite des Führerscheins"
+        }
+      }
+    },
+    "documents": {
+      "id_card": {
+        "name": "Personalausweis"
+      },
+      "passport": {
+        "name": "Reisepass"
+      },
+      "driving_license": {
+        "name": "Führerschein"
+      }
+    },
+    "mistakes": {
+      "title": "Hauptfehler",
+      "too_blurry": "Zu undeutlich",
+      "too_small": "Zu klein",
+      "too_dark": "Zu dunkel",
+      "bad_lightning": "Schlechte Beleuchtung",
+      "not_a_neutral_face": "Kein neutrales Gesicht"
+    },
+    "buttons": {
+      "start": "Beginnen",
+      "close": "Schließen",
+      "disagree": "Ich bin nicht einverstanden",
+      "try_again": "Nochmal probieren",
+      "go_back": "Zurück",
+      "capture": "Aufnehmen",
+      "continue": "Weiter",
+      "continue_in": "Weiter in {{count}}...",
+      "quit": "Verlassen"
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "app": {
+    "onboarding": {
+      "title": "Mirë se vini në procesin e verifikimit të identitetit",
+      "description": "Për të vazhduar përdorimin e këtij shërbimi, duhet të vërtetoni se i plotësoni kërkesat. Procesi i verifikimit përbëhet nga 4 hapa.",
+      "choose_document": "Zgjidhni një dokument",
+      "take_a_photo_of_your_document": "Bëjini një foto dokumentit",
+      "take_a_selfie": "Fotografoni fytyrën tuaj"
+    },
+    "consent": {
+      "title": "Pelqimi per procesimin e te dhenave personale",
+      "subtitle1": "E thënë thjesht:",
+      "item1": "Për të përdorur shërbimet ju duhet të bëni procesin e verifikimit të identitetit, ku të dhënat biometrike të fytyrës suaj dhe ato nga dokumenti juaj do të fotografohen nga kamera dhe do të përpunohen.",
+      "item2": "UAB “Ondato” i ruan të dhënat personale jo më gjatë, sesa është e detyruar nga kompania, shërbimet e të cilave doni të përdorni.",
+      "item3": "Ju mund të paraqisni gjithmonë një kërkesë në lidhje me të dhënat tuaja personale për informacion më të detajuar në support@ondato.com ose kontrolloni politikën e ofruesit të shërbimeve.",
+      "subtitle2": "Versioni ligjor:",
+      "subtitle3": "Të dhënat e kërkuara",
+      "paragraph1": "Në mënyrë që të përfitoj shërbimin nga ofruesi i shërbimit përmes dhënies së këtij pëlqimi unë pranoj se UAB “Ondato“ do të marrë dhe menaxhojë të dhënat e mia personale, duke përfshirë edhe të dhënat e mia biometrike, të marra gjatë identifikimit në distancë të identitetit tim, duke marrë dhe/ose filmuar imazhe direkt të fytyrës sime, identitetin e personit tim ose dokumentin e përdorur për të identifikuar atë dhe/ose imazhet e tyre dhe të dhënat personale që kanë ato dhe/ose kontrolli në regjistrin e popullsisë: imazhi i fytyrës sime, emër, mbiemër, kombësia, gjinia, kodi personal, datëlindja, numrat e identifikimit që po përdoren, data e lëvrimit dhe vlefshmëria, firma ime, dhe transferimi i këtyre të dhënave tek ofruesit të shërbimit.",
+      "paragraph2": "",
+      "paragraph3": "Me anë të kësaj, deklaroj dhe konfirmoj, se të gjitha të dhënat personale që do të siguroj për identifikimin në distance të identitetit tim, janë të sakta, dhe dokumenti që do të përdor për këtë qëllim nuk është i rremë, por i vlefshëm."
+    },
+    "quit_confirmation": {
+      "title": "A je i sigurt që do të heqësh dorë nga verifikimi i identitetit?",
+      "description": "I gjithë progresi juaj në procesin e verifikimit të identitetit do të humbë."
+    },
+    "error": {
+      "title": "Identifikimi juaj refuzohet për shkak të skadimit të dokumentit",
+      "description": "Ju duhet te fotografoni nje dokument te vlefshem per te perfunduar procesin e identifikimit."
+    },
+    "success": {
+      "title": "Identifikimi juaj u krye me sukses.",
+      "description": "Faleminderit për durimin tuaj."
+    },
+    "document_selection": {
+      "title": "Zgjidhni një dokument dhe filloni të bëni verifikimin"
+    },
+    "document_preview": {
+      "title": "Kontrollo cilesine e imazhit te fotografuar",
+      "description": "Sigurohuni qe fotografia ne dokument eshte e qarte dhe te dhenat jane te lexueshme. Nese besoni se cilesia e imazhit eshte e pranueshme atehere shtypni butonin \"Continue\"."
+    },
+    "document_preparation": {
+      "passport": {
+        "title": "Ju lutem fotografoni faqen kryesore te dokumentit i cili permban edhe shiritin e sigurise MRZ",
+        "description": "Ju lutem tregoni anen e dokumentit i cili ka shiritin e sigurise MRZ dhe shtyp butonin \"Capture\". Dokumenti duhet te jete i qarte, jo i turbullt ose i pikselizuar."
+      },
+      "selfie": {
+        "title": "Ju lutemi fotografoni fytyrën",
+        "description": "Vendoseni fytyrën tuaj brenda kornizës dhe sigurohuni që fytyra të jetë e dukshme dhe e ndriçuar në mënyrë të njëtrajtshme."
+      },
+      "document_with_selfie": {
+        "title": "Fotografoni veten duke mbajtur dokumentin",
+        "description": "Mbani dokumentin afër fytyrës ndërsa bëni fotografinë."
+      },
+      "id_card": {
+        "front": {
+          "title": "Ju lutem te fotografoni anen e perparme te kartes se identitetit",
+          "description": "Ju lutem te tregoni anen e perparme te kartes suaj te identitetit ne zonen e percaktuar dhe shtypni butonin \"Capture\". Dokumenti duhet te jete i qarte, jo i turbullt ose i pikselizuar."
+        },
+        "back": {
+          "title": "Ju lutem te fotografoni anen e pasme te kartes suaj te identitetit",
+          "description": "Ju lutem te vendosni anen e pasme te kartes suaj te ID ne zonen e percaktuar dhe shtyp butonin \"Capture\". Sigurohu qe shiriti i sigurise eshte i qarte dhe dokumenti nuk eshte i turbullt ose i pikselizuar."
+        }
+      },
+      "driving_license": {
+        "front": {
+          "title": "Ju lutemi kapni pjesën e përparme të patentës së shoferit",
+          "description": "Ju lutemi tregoni anën e përparme të lejes së drejtimit në zonën e shënuar dhe shtypni butonin \"Kapto\". Fotografia e lejes së drejtimit duhet të jetë qartë e dukshme, jo e turbullt ose e pikseluar."
+        },
+        "back": {
+          "title": "Ju lutemi kapni pjesën e pasme të patentës së shoferit",
+          "description": "Ju lutemi tregoni anën e pasme të lejes së drejtimit në zonën e shënuar dhe shtypni butonin \"Kapto\". Fotografia e lejes së drejtimit duhet të jetë qartë e dukshme, jo e turbullt ose e pikseluar."
+        }
+      }
+    },
+    "document_capture": {
+      "passport": {
+        "title": "Ju lutem fotografoni faqen kryesore te dokumentit i cili permban edhe shiritin e sigurise MRZ"
+      },
+      "selfie": {
+        "title": "Vendosni fytyren tuaj brenda kornizes"
+      },
+      "document_with_selfie": {
+        "title": "Fotografoni veten duke mbajtur dokumentin "
+      },
+      "id_card": {
+        "front": {
+          "title": "Ju lutem te fotografoni anen e perparme te kartes se identitetit"
+        },
+        "back": {
+          "title": "Ju lutem te fotografoni anen e pasme te kartes suaj te identitetit"
+        }
+      },
+      "driving_license": {
+        "front": {
+          "title": "Ju lutemi, kapni pjesën e përparme të patentës së shoferit"
+        },
+        "back": {
+          "title": "Ju lutemi, kapni pjesën e pasme të patentës së shoferit"
+        }
+      }
+    },
+    "documents": {
+      "id_card": {
+        "name": "Karte Identiteti"
+      },
+      "passport": {
+        "name": "Pashaporte"
+      },
+      "driving_license": {
+        "name": "Patente"
+      }
+    },
+    "mistakes": {
+      "title": "Gabimet kryesore:",
+      "too_blurry": "Shumë e turbullt",
+      "too_small": "Shumë e vogël",
+      "too_dark": "Shumë e errët",
+      "bad_lightning": "Ndriçim i keq",
+      "not_a_neutral_face": "Jo një fytyrë neutrale"
+    },
+    "buttons": {
+      "start": "Fillojme",
+      "close": "Mbyll",
+      "disagree": "Nuk jam dakord",
+      "try_again": "Provoje perseri",
+      "go_back": "Kthehu pas",
+      "capture": "Bëj një foto",
+      "continue": "Vazhdojme",
+      "continue_in": "Vazdhoni në {{count}}...",
+      "quit": "Lë"
+    }
+  }
+}

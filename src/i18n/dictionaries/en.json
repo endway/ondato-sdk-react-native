@@ -1,0 +1,238 @@
+{
+  "app": {
+    "common": {
+      "loading": "Loading",
+      "base_error": "An error has occurred"
+    },
+    "loading": {
+      "title": "Uploading information",
+      "description": "Please wait..."
+    },
+    "registration_success": {
+      "title": "Registration successful",
+      "description": "Once your registration is processed, you will be notified by e-mail."
+    },
+    "onboarding": {
+      "title": "Welcome to identity verification process",
+      "description": "To continue using this service you need to validate that you fit the websites requirements. The verification process consists of 3 steps.",
+      "choose_document": "Choose a document",
+      "take_a_photo_of_your_document": "Take a photo of your document",
+      "take_a_selfie": "Take a selfie"
+    },
+    "consent": {
+      "title": "Consent for personal data processing",
+      "section_title1": "In simple words:",
+      "section_title2": "Legal version:",
+      "item1": "In order to use the services you need to perform identity verification process, where biometric data of your face and data from your document will be captured through camera and managed.",
+      "item2": "UAB “Ondato” stores the personal data for no longer than it is obliged by the company which services you want to use.",
+      "item3": "You can always submit request regarding your personal data for more detailed information at info@ondato.com",
+      "paragraph_title1": "Required data",
+      "paragraph_title2": "Data processing",
+      "paragraph_title3": "Data handling",
+      "paragraph1": "In order to obtain the service from the Service Provider, with this consent I express my agreement that UAB “Ondato” will receive and manage my personal data, including my biometric data, gained from remote identification of my personal identity by taking and/or filming live image of my face, my person's identity or the document used to identify it and/or their image and the personal data contained in them and/or check in the population registry: image of my face, name, surname, nationality, gender, personal code, date of birth, numbers of the document that is being used, date of issue and validity, my signature and the transfer of such data to the Service Provider.",
+      "paragraph2": "I also note that I am informed that the controller of my personal data, including my biometric data, specified in this consent is the Service Provider and UAB \"Ondato\" will process my personal data only until the remote identification procedure is over and the results will be transferred to the Service Provider. I also declare that I am informed and agree that my personal data obtained for remote identification and its purposes may be stored by UAB \"Ondato\" for longer period of time than it takes for the identification to be completed or transmission of its results to the Service Provider, but only at the request of the Service Provider or UAB Ondato's contractual obligation to the Service Provider, but not longer than it is defined in the Contract that was signed between UAB \"Ondato\" and Service Provider or requested by the Service Provider.",
+      "paragraph3": "I am informed, that I can submit request regarding my personal data for more detailed information at support@ondato.com",
+      "paragraph4": "Hereby I declare and confirm, that all the personal data I will provide for remote identification of my personal identity purpose, are correct and accurate, and the document, which I will use for this purpose is not false and valid. "
+    },
+    "quit_confirmation": {
+      "title": "Are you sure you want to quit identity verification?",
+      "description": "All the progress you made in the identity verification process will be lost."
+    },
+    "success": {
+      "title": "Your identification is successful",
+      "description": "Thank you for your patience."
+    },
+    "document_selection": {
+      "title": "Choose a document and start verification"
+    },
+    "document_preview": {
+      "title": "Check the captured image quality",
+      "description": " Make sure that the photo on the captured document is clearly visible & the data is readable. If you believe, that the image quality is acceptable, please click the “Continue“ button."
+    },
+    "document_preparation": {
+      "passport": {
+        "title": "Please capture the main passport page",
+        "description": "Please show the main document page that contains MRZ zone in the marked area and press “Capture”. Document page should be clearly visible, not blurry or pixelated."
+      },
+      "selfie": {
+        "title": "Take a selfie",
+        "description": "Position your face in the middle of the frame and follow the instructions. Photo should be not blurry and evenly lit."
+      },
+      "document_with_selfie": {
+        "title": "Capture yourself while holding your document",
+        "description": "Hold the document near your face while taking a selfie."
+      },
+      "id_card": {
+        "front": {
+          "title": "Please capture the front of identity card",
+          "description": "Please show the front side of your ID card in the marked area and press the button “Capture“. Document should be clearly visible, not blurry or pixelated."
+        },
+        "back": {
+          "title": "Please capture the back of identity card",
+          "description": "Please show the main document page that contains MRZ zone in the marked area and press “Capture”. Document page should be clearly visible, not blurry or pixelated."
+        }
+      },
+      "driving_license": {
+        "front": {
+          "title": "Please capture the front of driver’s license",
+          "description": "Please show the front side of driving license in the marked area and press the button “Capture”. Photo of driving license should be clearly visible, not blurry or pixelated."
+        },
+        "back": {
+          "title": "Please capture the back of driver’s license",
+          "description": "Please show the back side of driving license in the marked area and press the button “Capture”. Driving license should be clearly visible, not blurry or pixelated."
+        }
+      }
+    },
+    "document_capture": {
+      "passport": {
+        "title": "Please capture the main document page that contains MRZ zone"
+      },
+      "selfie": {
+        "title": "Frame your face"
+      },
+      "document_with_selfie": {
+        "title": "Capture yourself while holding your document"
+      },
+      "id_card": {
+        "front": {
+          "title": "Please capture the front side of your ID card"
+        },
+        "back": {
+          "title": "Please capture the back side of your ID card"
+        }
+      },
+      "driving_license": {
+        "front": {
+          "title": "Please capture the front of driver’s license"
+        },
+        "back": {
+          "title": "Please capture the back of driver’s license"
+        }
+      }
+    },
+    "documents": {
+      "id_card": {
+        "name": "Identity card"
+      },
+      "passport": {
+        "name": "Passport"
+      },
+      "driving_license": {
+        "name": "Driving license"
+      }
+    },
+    "mistakes": {
+      "title": "Main mistakes",
+      "too_blurry": "Too blurry",
+      "too_small": "Too small",
+      "too_dark": "Too dark",
+      "bad_lightning": "Bad lightning",
+      "not_a_neutral_face": "Not a neutral face"
+    },
+    "buttons": {
+      "start": "Start",
+      "close": "Close",
+      "disagree": "Disagree",
+      "try_again": "Try again",
+      "go_back": "Go back",
+      "capture": "Capture",
+      "continue": "Continue",
+      "continue_in": "Continue in {{count}}...",
+      "quit": "Quit"
+    },
+    "reject_reasons": {
+      "missing_document_photo": {
+        "title": "Your identification is rejected due to missing document photo.",
+        "description": "We kindly ask you to retry the identification process and capture all necessary pictures of your document"
+      },
+      "document_not_accepted": {
+        "title": "Your identification is rejected due to document which is unacceptable.",
+        "description": "The document which has been submitted is unacceptable. We kindly ask you to submit a valid passport and ID card in order to finish identification process"
+      },
+      "data_does_not_match": {
+        "title": "Your identification is rejected due to information missmatch in the document and the customer form.",
+        "description": "We kindly ask you to check information which was provided in the client form. The information on the customer form must match the information on your document."
+      },
+      "sanctioned": {
+        "title": "Your identification is rejected.",
+        "description": "We kindly ask you to contact service provider for more information."
+      },
+      "missing_selfie_photo": {
+        "title": "Your identification is rejected due to incorrect selfie submission.",
+        "description": "We kindly ask you to retry identification process according to the provided instructions."
+      },
+      "faces_does_not_match": {
+        "title": "Your identification is rejected due to the mismatch of your selfie and document picture.",
+        "description": "We kindly ask you to retry identification process or contact client support."
+      },
+      "poor_photo_quality": {
+        "title": "Your identification is rejected due to poor photo quality.",
+        "description": "We kindly ask you to retry identification process and ensure that document data is clearly readable or in case of poor camera quality, please try starting the process on a different device."
+      },
+      "poor_photo_lighting": {
+        "title": "Your identification is rejected due to poor photo lighting.",
+        "description": "We kindly ask you to retry identification process and ensure that document is evenly lit."
+      },
+      "blurred_photo": {
+        "title": "Your identification is rejected due to blurred photo.",
+        "description": "We kindly ask you to retry identification process and ensure that document data is clearly readable."
+      },
+      "bad_media_format": {
+        "title": "Your identification is rejected.",
+        "description": "We kindly ask you to capture your original document."
+      },
+      "miscellaneous": {
+        "title": "Your identification is rejected.",
+        "description": "We kindly ask you to contact service provider for more information."
+      },
+      "possible_fraud_attempt": {
+        "title": "Your identification is rejected.",
+        "description": "We kindly ask you to contact service provider for more information."
+      },
+      "unrelated_photo": {
+        "title": "Your identification is rejected due to submitted unrelated photo.",
+        "description": "You must capture a valid document in order to finish identification process."
+      },
+      "more_than_one_person": {
+        "title": "Your identification is rejected due to other people participating in the process.",
+        "description": "Identification process must be performed without other people participating in the process."
+      },
+      "prohibited_country_or_state": {
+        "title": "Your identification is rejected due to prohibited country or state.",
+        "description": "We kindly ask you to contact service provider for more information or try again with another document."
+      },
+      "document_is_expired": {
+        "title": "Your identification is rejected due to the expiration of the document.",
+        "description": "You must capture a valid document in order to finish the identification process."
+      },
+      "document_with_non_latin_characters": {
+        "title": "Your identification is rejected due to a document type that is not acceptable",
+        "description": "We kindly ask you to capture a valid globally recognized document with MRZ (machine readable zone)."
+      },
+      "part_of_document_is_covered": {
+        "title": "Your identification is rejected due to covered information in the document photo.",
+        "description": "We kindly ask you to retry identification process by ensuring that document is clearly readable and no data is covered."
+      },
+      "underage_person": {
+        "title": "Your identification is rejected due to age restrictions.",
+        "description": "We kindly ask you to contact service provider for more information."
+      },
+      "part_of_face_is_covered": {
+        "title": "Your identification is rejected due to the face being covered.",
+        "description": "We kindly ask you to retry identification process according to the provided instructions. Please do not cover your face."
+      },
+      "prohibited_nationality": {
+        "title": "Your identification is rejected.",
+        "description": "We kindly ask you to retry the process or contact client support."
+      },
+      "duplicated_info": {
+        "title": "Your identification is rejected.",
+        "description": "The user already exists."
+      },
+      "unknown": {
+        "title": "There was a problem with your identification.",
+        "description": "We kindly ask you to retry the process or contact client support."
+      }
+    }
+  }
+}

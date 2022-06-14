@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "lib": ["es2017"],
+    "allowJs": true,
+    "jsx": "react-native",
+    "noEmit": true,
+    "isolatedModules": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "paths": {
+      "@ondato/assets/*": ["../assets/*"],
+      "@ondato/api/*": ["src/api/*"],
+      "@ondato/components": ["src/components"],
+      "@ondato/config": ["src/config"],
+      "@ondato/core/*": ["src/core/*"],
+      "@ondato/hooks": ["src/hooks"],
+      "@ondato/i18n/*": ["src/i18n/*"],
+      "@ondato/modules/*": ["src/modules/*"],
+      "@ondato/navigation/*": ["src/navigation/*"],
+      "@ondato/screens": ["src/screens"],
+      "@ondato/theme/*": ["src/theme/*"],
+      "@ondato/utils": ["src/utils"]
+    }
+  },
+  "exclude": [
+    "node_modules", "babel.config.js", "metro.config.js", "jest.config.js"
+  ]
+}

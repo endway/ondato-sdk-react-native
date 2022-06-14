@@ -1,0 +1,133 @@
+{
+  "app": {
+    "onboarding": {
+      "title": "Sveikiname jus pradejus asmens tapatybės nustatymo procesą",
+      "description": "Norėdami toliau naudoti šią paslaugą, turite patvirtinti, kad atitinkate reikalavimus. Patvirtinimo procesą sudaro 3 veiksmai.",
+      "choose_document": "Pasirinkite dokumentą",
+      "take_a_photo_of_your_document": "Nufotografuokite dokumentą",
+      "take_a_selfie": "Nuskenuokite veidą"
+    },
+    "consent": {
+      "title": "Sutikimas dėl asmens duomenų tvarkymo",
+      "subtitle1": "Paprastai sakant:",
+      "item1": "Kad galėtumėte naudotis paslaugomis, atlikite asmens tapatybės patvirtinimo procedūrą, kurios metu kamera užfiksuos jūsų veido biometrinius duomenis ir dokumento duomenis, kurie bus apdoroti.",
+      "item2": "UAB „Ondato“ asmens duomenis saugo ne ilgiau, nei įpareigoja bendrovė, kurios paslaugomis pageidaujate naudotis.",
+      "item3": "Bet kada galite pateikti užklausą dėl savo asmens duomenų ir gauti daugiau informacijos el. paštu support@ondato.com arba galite peržiūrėti paslaugos teikėjo politiką.",
+      "subtitle2": "Teisinė versija:",
+      "subtitle3": "Reikalaujami duomenys",
+      "paragraph1": "Siekdamas gauti paslaugą iš Paslaugos teikėjo, šiuo sutikimu išreiškiu savo sutikimą, kad nuotolinės asmens identifikacijos vykdytojas UAB „Ondato“ iš manęs gautų ir tvarkytų mano asmens duomenis, kurie apima ir mano biometrinius duomenis, nuotolinei mano asmens tapatybės identifikacijai fotografavimo ir (ar) filmavimo būdu atlikti – mano veido gyvą vaizdą, mano asmens tapatybės ar jai nustatyti naudojamo dokumento nuotraukas ir (ar) jų vaizdą bei juose esančius asmens duomenis apie mane: mano veido atvaizdą, vardą, pavardę, pilietybę, lytį, asmens kodą, gimimo datą, naudojamo dokumento numerį, išdavimo ir galiojimo datą, mano parašą ir perduotų šiuos duomenis Paslaugos teikėjui ir (arba) tikrintų mano duomenis gyventojų registre.",
+      "paragraph2": "",
+      "paragraph3": "Patvirtinu ir garantuoju, kad visi asmens duomenys, kuriuos pateiksiu siekdamas nuotolinės asmens tapatybės identifikacijos, yra teisingi ir tikslūs, taip pat dokumentas, kurį aš naudosiu šiuo tikslu yra nepadirbtas ir galiojantis."
+    },
+    "quit_confirmation": {
+      "title": "Ar tikrai norite baigti asmens tapatybės patikrinimą?",
+      "description": "Visi atlikti asmens tapatybės patikrinimo veiksmai bus prarasti."
+    },
+    "error": {
+      "title": "Jūsų tapatybės nustatymas neatliktas, nes baigėsi dokumento galiojimo laikas.",
+      "description": "Identifikacijos procesui atlikti privalote pateikti galiojantį dokumentą."
+    },
+    "success": {
+      "title": "Jūsų identifikacija – sėkminga.",
+      "description": "Ačiū už kantrybę."
+    },
+    "document_selection": {
+      "title": "Pasirinkite dokumentą ir pradėkite identifikaciją"
+    },
+    "document_preview": {
+      "title": "Patikrinkite nuotraukos kokybę",
+      "description": "Įsitikinkite, kad nuotraukoje aiškiai matosi visa reikiama informacija ir duomenys lengvai perskaitomi. Jeigu nuotraukos kokybė tinkama, spauskite „Toliau“."
+    },
+    "document_preparation": {
+      "passport": {
+        "title": "Nufotografuokite paso puslapį, kuriame yra pateikiama kontrolinė eilutė",
+        "description": "Įtaikykite paso puslapį į pažymėtą rėmelį ir spauskite „Fotografuoti“. Įsitikinkite, kad dokumento informacija aiškiai matoma."
+      },
+      "selfie": {
+        "title": "Pateikite savo veido nuotrauką",
+        "description": "Įtaikykite veidą į rėmelį ir įsitikinkite, kad jūsų veidas yra aiškiai matomas ir tolygiai apšviestas."
+      },
+      "document_with_selfie": {
+        "title": "Nusifotografuokite laikydami dokumentą",
+        "description": "Darydami asmenukę, dokumentą laikykite prie veido."
+      },
+      "id_card": {
+        "front": {
+          "title": "Nufotografuokite asmens tapatybės kortelės priekinę pusę",
+          "description": "Įtaikykite asmens tapatybės kortelės priekinę pusę į pažymėtą rėmelį ir spauskite „Fotografuoti“. Įsitikinkite, kad dokumento informacija aiškiai matoma."
+        },
+        "back": {
+          "title": "Nufotografuokite asmens tapatybės kortelės kitą pusę",
+          "description": "Įtaikykite asmens tapatybės kortelės kitą pusę į pažymėtą rėmelį ir spauskite „Fotografuoti“. Įsitikinkite, kad kontrolinė eilutė yra gerai matoma."
+        }
+      },
+      "driving_license": {
+        "front": {
+          "title": "Prašome nufotografuoti vairuotojo pažymėjimo priekinę pusę",
+          "description": "Prašome patalpinti vairuotojo pažymėjimo priekinę pusę į pažymėtą rėmelį ir spausti „Fotografuoti“. Įsitikinkite, kad dokumento informacija yra aiškiai matoma ir neišsiliejusi."
+        },
+        "back": {
+          "title": "Prašome nufotografuoti vairuotojo pažymėjimo galinę pusę",
+          "description": "Prašome patalpinti vairuotojo pažymėjimo galinę pusę į pažymėtą rėmelį ir spausti „Fotografuoti“. Įsitikinkite, kad dokumento informacija yra aiškiai matoma ir neišsiliejusi."
+        }
+      }
+    },
+    "document_capture": {
+      "passport": {
+        "title": "Nufotografuokite paso puslapį, kuriame yra pateikiama kontrolinė eilutė"
+      },
+      "selfie": {
+        "title": "Įtaikykite veidą rėmelyje"
+      },
+      "document_with_selfie": {
+        "title": "Nusifotografuokite laikydami dokumentą"
+      },
+      "id_card": {
+        "front": {
+          "title": "Nufotografuokite asmens tapatybės kortelės priekinę pusę"
+        },
+        "back": {
+          "title": "Nufotografuokite asmens tapatybės kortelės kitą pusę"
+        }
+      },
+      "driving_license": {
+        "front": {
+          "title": "Prašome nufotografuoti vairuotojo pažymėjimo priekinę pusę"
+        },
+        "back": {
+          "title": "Prašome nufotografuoti vairuotojo pažymėjimo galinę pusę"
+        }
+      }
+    },
+    "documents": {
+      "id_card": {
+        "name": "Asmens tapatybės kortelė"
+      },
+      "passport": {
+        "name": "Pasas"
+      },
+      "driving_license": {
+        "name": "Vairuotojo pažymėjimas"
+      }
+    },
+    "mistakes": {
+      "title": "Pagrindinės klaidos",
+      "too_blurry": "Neryški",
+      "too_small": "Per maža",
+      "too_dark": "Per tamsi",
+      "bad_lightning": "Blogas apšvietimas",
+      "not_a_neutral_face": "Ne neutrali veido išraiška"
+    },
+    "buttons": {
+      "start": "Pradėti",
+      "close": "Uždaryti",
+      "disagree": "Nesutinku",
+      "try_again": "Pradėti iš naujo",
+      "go_back": "Atgal",
+      "capture": "Fotografuoti",
+      "continue": "ConToliautinue",
+      "continue_in": "Tęsti už {{count}}...",
+      "quit": "Baigti"
+    }
+  }
+}

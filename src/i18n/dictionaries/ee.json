@@ -1,0 +1,133 @@
+{
+  "app": {
+    "onboarding": {
+      "title": "Tere tulemast isikusamasuse kontrolli protsessi",
+      "description": "Et jätkata selle teenuse kasutamist, peate kinnitama, et vastate nõuetele. Kontrolli protsess koosneb 3 etapist.",
+      "choose_document": "Valige dokument",
+      "take_a_photo_of_your_document": "Tehke dokumendist foto",
+      "take_a_selfie": "Skannige oma nägu"
+    },
+    "consent": {
+      "title": "Nõusolek isikuandmete töötlemiseks",
+      "subtitle1": "Lihtsalt öeldes:",
+      "item1": "Et kasutada teenuseid, peate läbima isikusamasuse kontrolli protsessi, kus teie näo biomeetrilised andmed ja dokumendi andmed jäädvustatakse kaamera abil ning töödeldakse.",
+      "item2": "UAB “Ondato” säilitab isikuandmeid ainult seni, kuni meid selleks kohustab ettevõtte, kelle teenuseid tahate kasutada.",
+      "item3": "Võite igal ajal esitada päringu, et saada oma isikuandmete asjus täpsemat teavet, aadressil support@ondato.com või vaadata teenusepakkuja põhimõtteid.",
+      "subtitle2": "Seaduslik versioon:",
+      "subtitle3": "Nõutavad andmed",
+      "paragraph1": "Teenuse pakkujalt teenuse saamise eesmärgil nõustun, et UAB “Ondato” võtab vastu ja töötleb minu isikuandmeid, sealhulgas minu biomeetrilisi andmeid, mis on saadud minu isiku tuvastamisel minu näo filmimise ja / või pildistamise teel , minu isiku identiteeti või selle tuvastamiseks kasutatud dokumenti ja / või selle kujutist ja sellel sisalduvaid isikuandmeid ja / või rahvastikuregistri kontrolli tulemusel saadud andmeid: näokujutis, nimi, perekonnanimi, kodakondsus, sugu, isikukood, sünniaeg, kasutatava dokumendi number, väljaandmise kuupäev ja kehtivusaeg, minu allkiri, ja edastab saadud andmed teenuse pakkujale.",
+      "paragraph2": "",
+      "paragraph3": "Käesolevaga kinnitan, et kõik isikuandmed, mille edastan oma isiku tuvastamise ja kontrollimise eesmärgil kaugtuvastamiseks, on õiged ja täpsed ning dokument, mida sel eesmärgil kasutan, ei ole vale ja on kehtiv."
+    },
+    "quit_confirmation": {
+      "title": "Kas olete kindel, et soovite identiteedi kinnitamisest väljuda?",
+      "description": "Kõik identiteedi kinnitamise toimingus tehtu kustutatakse."
+    },
+    "error": {
+      "title": "Teie identifitseerimine lükati tagasi, kuna dokument on aegunud.",
+      "description": "Esitage kehtiv dokument"
+    },
+    "success": {
+      "title": "Teie identifitseerimine oli edukas",
+      "description": "Täname kannatuse eest."
+    },
+    "document_selection": {
+      "title": "Vali dokument ja alusta kinnitamist"
+    },
+    "document_preview": {
+      "title": "Kontrollige pildistatud kujutise kvaliteeti",
+      "description": "Veenduge, et pildistatud dokumendi foto on selgelt nähtav ja et andmed on loetavad. Kui arvate, et kujutise kvaliteet on vastuvõetav, klõpsake nuppu \"Jätka\""
+    },
+    "document_preparation": {
+      "passport": {
+        "title": "Palun pildistage põhidokumendi lehekülge, mis sisaldab masinloetavat ala",
+        "description": "Asetage pass märgitud raami ja klõpsake nuppu \"Tee foto\". Foto tuleks teha hästi valgustatud keskkonnas, kus dokumendi kaas on selgelt nähtav. Foto peab olema terav, kvaliteetne."
+      },
+      "selfie": {
+        "title": "Jäädvusta pilt oma näost",
+        "description": "Sea oma nägu raami ning veendu, et see on nähtav ja ühtlaselt valgustatud."
+      },
+      "document_with_selfie": {
+        "title": "Captúrese mientras sostiene su documento",
+        "description": "Hoidke dokumenti näo lähedal, kui endast fotot teete."
+      },
+      "id_card": {
+        "front": {
+          "title": "Laadige üles oma ID-kaardi esikülje foto",
+          "description": "Asetage ID-kaardi esikülg märgitud raami ja klõpsake nuppu \"Tee foto\". Foto tuleks teha hästi valgustatud keskkonnas, kus dokument on selgelt nähtav. Foto peab olema terav, kvaliteetne."
+        },
+        "back": {
+          "title": "Palun pildistage ID-kaardi teist külge",
+          "description": "Asetage dokument koos elektrooniliselt loetava ribaga kaadrisse ja vajutage nuppu \"Tee foto\". Dokument peab olema selgelt nähtav."
+        }
+      },
+      "driving_license": {
+        "front": {
+          "title": "Palun pildistage ID-kaardi teist külge",
+          "description": "Asetage dokument koos elektrooniliselt loetava ribaga kaadrisse ja vajutage nuppu \"Tee foto\". Dokument peab olema selgelt nähtav."
+        },
+        "back": {
+          "title": "Tehke oma juhiloa tagaküljest pilt",
+          "description": "Asetage juhiloa tagakülg märgitud raami ja klõpsake nuppu \"Tee foto\". Foto tuleks teha hästi valgustatud keskkonnas, kus dokument on selgelt nähtav. Foto peab olema terav, kvaliteetne."
+        }
+      }
+    },
+    "document_capture": {
+      "passport": {
+        "title": "Palun pildistage põhidokumendi lehekülge, mis sisaldab masinloetavat ala"
+      },
+      "selfie": {
+        "title": "Sättige oma nägu raami"
+      },
+      "document_with_selfie": {
+        "title": "Captúrese mientras sostiene su documento"
+      },
+      "id_card": {
+        "front": {
+          "title": "Laadige üles oma ID-kaardi esikülje foto"
+        },
+        "back": {
+          "title": "Palun pildistage ID-kaardi teist külge"
+        }
+      },
+      "driving_license": {
+        "front": {
+          "title": "Tehke oma juhiloa esiküljest pilt"
+        },
+        "back": {
+          "title": "Tehke oma juhiloa tagaküljest pilt"
+        }
+      }
+    },
+    "documents": {
+      "id_card": {
+        "name": "ID-kaart"
+      },
+      "passport": {
+        "name": "Pass"
+      },
+      "driving_license": {
+        "name": "Juhiluba"
+      }
+    },
+    "mistakes": {
+      "title": "Peamised vead",
+      "too_blurry": "Liiga hägune",
+      "too_small": "Liiga väike",
+      "too_dark": "Liiga tume",
+      "bad_lightning": "Halb valgustus",
+      "not_a_neutral_face": "Näoilme pole neutraalne"
+    },
+    "buttons": {
+      "start": "Alusta",
+      "close": "Sulge",
+      "disagree": "Ei nõustu",
+      "try_again": "Proovi uuesti",
+      "go_back": "Tagasi",
+      "capture": "Tee foto",
+      "continue": "Jätka",
+      "continue_in": "Jätkake {{count}}...",
+      "quit": "Välju"
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "app": {
+    "onboarding": {
+      "title": "Laipni lūdzam identitātes verifikācijas procesā",
+      "description": "Lai turpinātu izmantot šo pakalpojumu, jums jāapstiprina, ka atbilstat prasībām. Verifikācijas process sastāv no 3 soļiem.",
+      "choose_document": "Izvēlieties dokumentu",
+      "take_a_photo_of_your_document": "Nofotografējiet dokumentu",
+      "take_a_selfie": "Noskenējiet savu seju"
+    },
+    "consent": {
+      "title": "Piekrišana personas datu apstrādei",
+      "subtitle1": "Vienkāršiem vārdiem:",
+      "item1": "Lai izmantotu šos pakalpojumus, jums jāveic identitātes pārbaude, kuras laikā ar fotokameras palīdzību tiks fiksēti jūsu sejas biometriskie dati un informācija no jūsu dokumenta, un tie tiks apstrādāti.",
+      "item2": "UAB “Ondato” jūsu personas datus neglabā ilgāk, kā to prasa uzņēmums, kura pakalpojumus vēlaties izmantot.",
+      "item3": "Jūs vienmēr varat iesniegt lūgumu saņemt sīkāku informāciju par jūsu personas datiem, rakstot uz support@ondato.com vai ieskatieties pakalpojumu sniedzēja politikā.",
+      "subtitle2": "Dokumenta versija:",
+      "subtitle3": "Nepieciešamie dati",
+      "paragraph1": "Lai saņemtu pakalpojumu no Pakalpojumu sniedzēja, ar šo piekrišanu es izsaku piekrišanu, ka UAB “Ondato” saņems un pārvaldīs manus personas datus, ieskaitot manus biometriskos datus, kas iegūti, attālināti identificējot manu personisko identitāti, uzņemot manas sejas, manu personu identificējoša dokumenta fotogrāfiju un/vai filmējot to, un tajā esošos attēlus un personas datus un/vai pārbaudot informāciju iedzīvotāju reģistrā: manas sejas attēls, vārds, uzvārds, tautība, dzimums, personas kods, dzimšanas datums, izmantotā dokumenta numuri, izdošanas datums un derīguma termiņš, mans paraksts un šādu datu nodošana pakalpojumu sniedzējam.",
+      "paragraph2": "",
+      "paragraph3": "Ar šo es paziņoju un apstiprinu, ka visi personas dati, kurus es sniegšu savas personīgās identitātes attālinātai identifikācijai, ir pareizi un precīzi, un dokuments, kuru es šim mērķim izmantošu, nav nepatiess un ir derīgs."
+    },
+    "quit_confirmation": {
+      "title": "Esat pārliecināts, ka vēlaties beigt identitātes apstiprināšanu?",
+      "description": "Viss progress, kas sasniegts identitātes apstiprināšanā, tiks zaudēts."
+    },
+    "error": {
+      "title": "Jūsu identifikācija ir noraidīta, jo beidzies dokumenta derīguma termiņš.",
+      "description": "Lai pabeigtu identifikācijas procesu, jums jānofotografē derīgs dokuments."
+    },
+    "success": {
+      "title": "Jūsu identifikācija – veiksmīga.",
+      "description": "Paldies par pacietību."
+    },
+    "document_selection": {
+      "title": "Izvēlieties dokumentu un sāciet verifikāciju"
+    },
+    "document_preview": {
+      "title": "Pārbaudiet dokumenta kvalitāti",
+      "description": "Pārliecināties, ka bilde skaidri attēlo visu nepieciešamo informāciju un ir viegli salasāma. Ja bilde ir atbilstoša, tad lūdzu spiežat uz \"nākamais\"."
+    },
+    "document_preparation": {
+      "passport": {
+        "title": "Lūdzu, nofotografējiet galvenās dokumentu lapas attēlu, kurā ir elektroniski nolasāma josla",
+        "description": "Ievietojiet dokumentu ar elektroniski nolasāmu joslu rāmī un nospiediet “Fotografēt”. Dokumentam jābūt skaidri redzamam."
+      },
+      "selfie": {
+        "title": "Lūdzu, ievietojiet seju objektīvā",
+        "description": "Ievietojiet seju rāmi un pārliecinieties par to, ka tā ir redzama un vienmērīgi izgaismota."
+      },
+      "document_with_selfie": {
+        "title": "Nofotografējiet sevi, turot dokumentu",
+        "description": "Fotografējot pašbildi, turiet dokumentu pie sejas."
+      },
+      "id_card": {
+        "front": {
+          "title": "Lūdzu, uzņemiet ID kartes priekšpusi",
+          "description": "Ievietojiet dokumentu ar elektroniski nolasāmu joslu rāmī un nospiediet “Fotografēt”. Dokumentam jābūt skaidri redzamam."
+        },
+        "back": {
+          "title": "Lūdzu, nofotografējiet ID kartes otru pusi",
+          "description": "Ievietojiet dokumentu ar elektroniski nolasāmu joslu rāmī un nospiediet “Fotografēt”. Dokumentam jābūt skaidri redzamam."
+        }
+      },
+      "driving_license": {
+        "front": {
+          "title": "Lūdzu, nofotografējiet vadītāja apliecības priekšpusi",
+          "description": "Lūdzu, parādiet vadītāja apliecības priekšpusi norādītajā zonā, un nospiediet pogu \"Fotografēt\". Vadītāja apliecības fotoattēlam jābūt skaidri redzamam, tas nedrīkst būt miglains."
+        },
+        "back": {
+          "title": "Lūdzu, nofotografējiet vadītāja apliecības otru pusi",
+          "description": "Lūdzu, parādiet vadītāja apliecības aizmuguri norādītajā zonā, un nospiediet pogu \"Fotografēt\". Vadītāja apliecībai jābūt skaidri redzamai, tā nedrīkst būt izplūdusi."
+        }
+      }
+    },
+    "document_capture": {
+      "passport": {
+        "title": "Lūdzu, nofotografējiet galvenās dokumentu lapas attēlu, kurā ir elektroniski nolasāma josla"
+      },
+      "selfie": {
+        "title": "Kadrējiet seju"
+      },
+      "document_with_selfie": {
+        "title": "Nofotografējiet sevi, turot dokumentu"
+      },
+      "id_card": {
+        "front": {
+          "title": "Lūdzu, uzņemiet ID kartes priekšpusi"
+        },
+        "back": {
+          "title": "Lūdzu, nofotografējiet ID kartes otru pusi"
+        }
+      },
+      "driving_license": {
+        "front": {
+          "title": "Lūdzu, nofotografējiet vadītāja apliecības priekšpusi"
+        },
+        "back": {
+          "title": "Lūdzu, nofotografējiet vadītāja apliecības otru pusi"
+        }
+      }
+    },
+    "documents": {
+      "id_card": {
+        "name": "Identifikācijas karte"
+      },
+      "passport": {
+        "name": "Pase"
+      },
+      "driving_license": {
+        "name": "Vadītāja apliecība"
+      }
+    },
+    "mistakes": {
+      "title": "Galvenās kļūdas",
+      "too_blurry": "Pārāk neskaidrs/izplūdis",
+      "too_small": "Pārāk mazs",
+      "too_dark": "Pārāk tumšs",
+      "bad_lightning": "Slikts apgaismojums",
+      "not_a_neutral_face": "Nav neitrāla seja"
+    },
+    "buttons": {
+      "start": "Sākt",
+      "close": "Aizvērt",
+      "disagree": "Nepiekrītu",
+      "try_again": "Mēģiniet vēlreiz",
+      "go_back": "Atgriezties",
+      "capture": "Fotografēt",
+      "continue": "Turpināt",
+      "continue_in": "Turpināt pēc {{count}}...",
+      "quit": "Beigt"
+    }
+  }
+}
