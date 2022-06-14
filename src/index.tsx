@@ -17,7 +17,7 @@ import { setupTranslations } from './i18n';
 
 setupTranslations();
 
-interface Props {
+export interface SdkProps {
   identityVerificationId: string;
   onError: () => void;
   onClose: () => void;
@@ -29,7 +29,7 @@ interface Props {
   theme?: ConfigurableTheme;
 }
 
-const Index: FC<Props> = (props) => {
+const App: FC<SdkProps> = (props) => {
   const {
     identityVerificationId,
     locale = Locales.en,
@@ -82,4 +82,4 @@ const Index: FC<Props> = (props) => {
   );
 };
 
-export default Index;
+export default App;
