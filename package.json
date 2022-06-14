@@ -75,10 +75,7 @@
   },
   "files": [
     "src",
-    "lib",
-    "!**/__tests__",
-    "!**/__fixtures__",
-    "!**/__mocks__"
+    "lib"
   ],
   "react-native-builder-bob": {
     "source": "src",

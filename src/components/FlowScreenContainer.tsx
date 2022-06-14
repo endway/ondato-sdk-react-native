@@ -2,14 +2,20 @@ import React, { FC } from 'react';
 import { NavigationProp, useNavigation } from '@react-navigation/native';
 import { RootStackParamList } from '@ondato/navigation/RootNavigator';
 import { row } from '@ondato/theme/common';
-import { TouchableOpacity } from 'react-native';
+import { StyleProp, TouchableOpacity, ViewStyle } from 'react-native';
 import { quitConfirmationRoute } from '@ondato/navigation/types';
 import { useTheme } from '@ondato/theme/hooks';
-import ScreenContainer, { ScreenContainerProps } from './ScreenContainer';
+import ScreenContainer from './ScreenContainer';
 import Container from './Container';
 import Svg from './Svg';
 
-const FlowScreenContainer: FC<ScreenContainerProps> = (props) => {
+interface Props {
+  children: React.ReactNode;
+  isLoading?: boolean;
+  style?: StyleProp<ViewStyle>;
+}
+
+const FlowScreenContainer: FC<Props> = (props) => {
   const { children, style, ...rest } = props;
   const theme = useTheme();
   const navigation = useNavigation<NavigationProp<RootStackParamList>>();
