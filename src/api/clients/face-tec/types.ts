@@ -1,5 +1,7 @@
 export interface GetFaceTecLicenseResponse {
-  domains: string;
+  deviceKeyIdentifier: string;
   expiryDate: string;
+  publicFaceScanEncryptionKey: string;
   key: string;
+  appId: string;
 }
