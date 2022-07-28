@@ -13,40 +13,38 @@ Note: the SDK is only responsible for capturing and uploading photos/videos. You
 
 SDK supports iOS 12.0 and up, Android from 5.0.0 version and up.
 
-## Android integration
-
 ### 1. Adding the SDK dependency
 
-Add repository to project level build.gradle file: 
-reikia kodo pavyzdzio
-
-Add SDK dependency to module level build.gradle file:
-reikia kodo pavyzdzio
+```npm install --save ondato-sdk-react-native```
 
 ### 2. Creating the SDK configuration
 
-Create an `OndatoConfig` using your Client Id, along with the Client secret, and Setup Id. Choose mode of: "TEST" and "LIVE" environment, default mode is TEST. 
 
-reikia kodo pavyzdzio
-
-Regarding all needed configurations, please, contact Ondato support team support@ondato.com to check if your account is configured accordingly.
+| Prop                   | Default              | Type              |
+|------------------------|----------------------|-------------------|
+| identityVerificationId | -                    | string            |
+| onError                | -                    | func              |
+| onSuccess              | -                    | func              |
+| onClose                | -                    | func              |
+| SuccessScreen          | SuccessScreen.tsx    | FC                |
+| LoadingScreen          | LoadingScreen.tsx    | FC                |
+| OnboardingScreen       | OnboardingScreen.tsx | FC                |
+| isConsentEnabled       | true                 | boolean           |
+| isOnboardingEnabled    | true                 | boolean           |
+| isLoggingEnabled       | true                 | boolean           |
+| locale                 | en                   | Locales           |
+| theme                  | lightTheme           | ConfigurableTheme |
 
 ### 3. Customising SDK
 
 #### 1. Loading Screen
-You can override the default fragment used to show loading state by setting `.setLoadingScreenProvider()` when building config.
+You can override the default fragment used to show loading state by setting `LoadingScreen` prop when initializing.
 
-reikia kodo pavyzdzio kaip vadinasi `.setLoadingScreenProvider()`
-
-#### 2. Start Screen
-You can override the default fragment used to start the verification process by setting `.setStartScreenProvider()` with your own implementation of `StartScreenProvider`. Note that, when custom start screen is used, it is up to you to start the verification process. Custom start fragment can start it by calling provided callback.
-
-reikia kodo pavyzdzio kaip vadinasi `StartScreenProvider`
+#### 2. Onboarding Screen
+You can override the default fragment used to start the verification process by setting `OnboardingScreen` with your own implementation of `OnboardingScreen`. Note that, when custom onboarding screen is used, it is up to you to start the verification process. Custom start fragment can start it by calling provided callback.
 
 #### 3. Success Screen
-You can define custom success screen which is shown when user data is successfully submited. Set it using `.setsetSuccessScreenProvider()` and pass your `SuccessScreenProvider` implementation. When success screen is overriden is up to you to call the provided callback, so the process can continue.
-
-reikia kodo pavyzdzio kaip vadinasi `.setsetSuccessScreenProvider()`
+You can define custom success screen which is shown when user data is successfully submitted. Set it using `SuccessScreen` and pass your `SuccessScreen` implementation. When success screen is override is up to you to call the provided callback, so the process can continue.
 
 #### 4. Localisation
 Ondato Android SDK already comes with out-of-the-box translations for the following locales:
@@ -61,66 +59,62 @@ Ondato Android SDK already comes with out-of-the-box translations for the follow
 
 
 #### 5. Theme Customization
-In order to enhance the user experience on the transition between your application and the SDK, you can provide some customisation by defining certain colors inside your own colors.xml file:
-
-reikia kodo pavyzdzio
-
-### 4. Starting the flow
-
-reikia kodo pavyzdzio
-
-## iOS integration
-
-### 1. Adding the SDK dependency
-
-Add repository to project level build.gradle file:
-reikia kodo pavyzdzio
-
-Add SDK dependency to module level build.gradle file:
-reikia kodo pavyzdzio
-
-### 2. Creating the SDK configuration
-
-Create an `OndatoConfig` using your Client Id, along with the Client secret, and Setup Id. Choose mode of: "TEST" and "LIVE" environment, default mode is TEST. 
-
-reikia kodo pavyzdzio
-
-Regarding all needed configurations, please, contact Ondato support team support@ondato.com to check if your account is configured accordingly.
-
-### 3. Customising SDK
-
-#### 1. Loading Screen
-You can override the default fragment used to show loading state by setting `.setLoadingScreenProvider()` when building config.
-
-reikia kodo pavyzdzio kaip vadinasi `.setLoadingScreenProvider()`
-
-#### 2. Start Screen
-You can override the default fragment used to start the verification process by setting `.setStartScreenProvider()` with your own implementation of `StartScreenProvider`. Note that, when custom start screen is used, it is up to you to start the verification process. Custom start fragment can start it by calling provided callback.
-
-reikia kodo pavyzdzio kaip vadinasi `StartScreenProvider`
-
-#### 3. Success Screen
-You can define custom success screen which is shown when user data is successfully submited. Set it using `.setsetSuccessScreenProvider()` and pass your `SuccessScreenProvider` implementation. When success screen is overriden is up to you to call the provided callback, so the process can continue.
-
-reikia kodo pavyzdzio kaip vadinasi `.setsetSuccessScreenProvider()`
-
-#### 4. Localisation
-Ondato Android SDK already comes with out-of-the-box translations for the following locales:
-- English (en) 🇬🇧
-- Lithuanian (lt) 🇱🇹
-- German (de) 🇩🇪
-- Latvian (lv) 🇱🇻
-- Estonian (et) 🇪🇪
-- Russian (ru) 🇷🇺
-- Albanian (sq) 🇦🇱
-- System ⚙️ (if device language is not translated, everything will be in English) 
+In order to enhance the user experience on the transition between your application and the SDK, you can provide some customisation by defining certain colors inside your own theme:
 
 
-#### 5. Theme Customization
-In order to enhance the user experience on the transition between your application and the SDK, you can provide some customisation by defining certain colors inside your own colors.xml file:
+#### ConfigurableTheme
 
-reikia kodo pavyzdzio
+| Prop   | Default | Type               |
+|--------|---------|--------------------|
+| colors | -       | ConfigurableColors |
+
+#### ConfigurableColors
+
+| Prop       | Default   | Type   |
+|------------|-----------|--------|
+| text       | `#2B2B2B` | string |
+| primary    | `#FE5A27` | string |
+| background | `#FFFFFF` | string |
 
 ### 4. Starting the flow
 
-reikia kodo pavyzdzio
+```typescript jsx
+import React, { FC } from 'react';
+import OndatoSDK, { ConfigurableTheme } from 'ondato-sdk-react-native';
+
+const App: FC = () => {
+  const identityVerificationId = '<Your identitity verification id>';
+  
+  const theme: ConfigurableTheme = {
+    colors: {
+      text: '#FFFFFF',
+      background: '#000000',
+      primary: '#EEEEEE',
+    },
+  };
+  
+  const onSuccess = () => {
+    // Handle identification process success case
+  };
+
+  const onError = () => {
+    // Handle identification process error case
+  };
+
+  const onClose = () => {
+    // Handle identification process close case
+  };
+
+  return (
+    <OndatoSDK
+      onSuccess={onSuccess}
+      onError={onError}
+      onClose={onClose}
+      theme={theme} 
+      identityVerificationId={identityVerificationId} 
+    />
+  );
+};
+
+export default App;
+```
