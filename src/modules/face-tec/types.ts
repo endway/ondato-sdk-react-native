@@ -1,5 +1,5 @@
 export interface FaceTecLicense {
-  domains: string;
+  domains?: string;
   expiryDate: string;
-  key: string;
+  key?: string;
 }
