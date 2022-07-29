@@ -3,7 +3,7 @@
     "target": "esnext",
     "module": "esnext",
     "lib": ["esnext"],
-    "allowJs": true,
+    "allowJs": false,
     "jsx": "react-native",
     "noEmit": false,
     "isolatedModules": true,
