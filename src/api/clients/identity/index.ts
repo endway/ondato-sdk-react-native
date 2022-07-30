@@ -1,4 +1,4 @@
-import httpClient from '@ondato/api/httpClient';
+import httpClient from '../../httpClient';
 import { ConsentRequest, CustomerAudits, GetSetupResponse, LoggingRequest } from './types';
 
 const baseUrl = '/identity-verifications';

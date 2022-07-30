@@ -1,11 +1,11 @@
 import React, { FC, useCallback, useEffect } from 'react';
-import { InitialScreenProps } from '@ondato/navigation/types';
-import { ScreenContainer, Splash } from '@ondato/components';
-import { useAppSelector } from '@ondato/core/store';
-import { useInit } from '@ondato/hooks';
-import { selectIdentityVerificationId, selectInitialRouteName } from '@ondato/modules/kyc/selectors';
-import { selectFullAccessToken } from '@ondato/modules/sessions/selectors';
-import { reset } from '@ondato/navigation/actions';
+import { InitialScreenProps } from '../navigation/types';
+import { ScreenContainer, Splash } from '../components';
+import { useAppSelector } from '../core/store';
+import { useInit } from '../hooks';
+import { selectIdentityVerificationId, selectInitialRouteName } from '../modules/kyc/selectors';
+import { selectFullAccessToken } from '../modules/sessions/selectors';
+import { reset } from '../navigation/actions';
 
 const InitialScreen: FC<InitialScreenProps> = (props) => {
   const { navigation } = props;

@@ -1,11 +1,11 @@
-import { RootState } from '@ondato/core/store';
-import { RootStackParamList } from '@ondato/navigation/RootNavigator';
+import { RootState } from '../../core/store';
+import { RootStackParamList } from '../../navigation/RootNavigator';
 import {
   consentRoute,
   documentPrepareRoute,
   documentSelectRoute,
   onboardingRoute,
-} from '@ondato/navigation/types';
+} from '../../navigation/types';
 import { Document } from './types';
 
 export const selectKycId = (state: RootState): string | null => {

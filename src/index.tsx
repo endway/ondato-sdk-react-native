@@ -1,17 +1,17 @@
 import React, { FC, useMemo } from 'react';
 import { QueryClientProvider } from 'react-query';
-import queryClient from '@ondato/core/query';
+import queryClient from './core/query';
 import { Provider } from 'react-redux';
-import { persistor, store } from '@ondato/core/store';
-import { Splash, StatusBar } from '@ondato/components';
-import RootNavigator from '@ondato/navigation/RootNavigator';
-import { ScreenConfigProvider } from '@ondato/core/screens-config/provider';
+import { persistor, store } from './core/store';
+import { Splash, StatusBar } from './components';
+import RootNavigator from './navigation/RootNavigator';
+import { ScreenConfigProvider } from './core/screens-config/provider';
 import { PersistGate } from 'redux-persist/integration/react';
-import { ThemeProvider } from '@ondato/theme/provider';
-import { Callbacks, UserConfig } from '@ondato/modules/kyc/types';
-import { ErrorBoundary } from '@ondato/core/error-boundary';
-import { ConfigurableTheme } from '@ondato/theme/types';
-import lightTheme from '@ondato/theme/lightTheme';
+import { ThemeProvider } from './theme/provider';
+import { Callbacks, UserConfig } from './modules/kyc/types';
+import { ErrorBoundary } from './core/error-boundary';
+import { ConfigurableTheme } from './theme/types';
+import lightTheme from './theme/lightTheme';
 import { Locales } from './i18n/constants';
 import { setupTranslations } from './i18n';
 

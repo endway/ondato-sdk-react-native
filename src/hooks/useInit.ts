@@ -1,12 +1,12 @@
-import { FaceTecClient, IdentityClient, KycClient, SessionsClient } from '@ondato/api/clients';
-import { setAccessToken, setFullAccessToken } from '@ondato/modules/sessions/slice';
-import { useAppDispatch } from '@ondato/core/store';
-import { setSetupId } from '@ondato/modules/identity/slice';
-import { setBackendConfig, setKycId } from '@ondato/modules/kyc/slice';
-import { mapBackendConfig } from '@ondato/modules/kyc/map';
+import { FaceTecClient, IdentityClient, KycClient, SessionsClient } from '../api/clients';
+import { setAccessToken, setFullAccessToken } from '../modules/sessions/slice';
+import { useAppDispatch } from '../core/store';
+import { setSetupId } from '../modules/identity/slice';
+import { setBackendConfig, setKycId } from '../modules/kyc/slice';
+import { mapBackendConfig } from '../modules/kyc/map';
 import { useMutation } from 'react-query';
-import { DeviceUtils } from '@ondato/utils';
-import { setFaceTecLicense } from '@ondato/modules/face-tec/slice';
+import { DeviceUtils } from '../utils';
+import { setFaceTecLicense } from '../modules/face-tec/slice';
 
 const useInit = () => {
   const dispatch = useAppDispatch();

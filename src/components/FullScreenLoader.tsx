@@ -1,11 +1,11 @@
 import React, { FC, useEffect, useRef, useState } from 'react';
-import { Theme } from '@ondato/theme/types';
+import { Theme } from '../theme/types';
 import { ActivityIndicator, Animated, StyleProp, StyleSheet, ViewStyle } from 'react-native';
-import { useThemeAwareObject } from '@ondato/theme/hooks';
-import { center } from '@ondato/theme/common';
+import { useThemeAwareObject } from '../theme/hooks';
+import { center } from '../theme/common';
 import hexToRgba from 'hex-to-rgba';
 import { useTranslation } from 'react-i18next';
-import { useTheme } from '@ondato/theme/hooks';
+import { useTheme } from '../theme/hooks';
 import PrimaryText from './PrimaryText';
 
 export interface FullScreenLoaderProps {

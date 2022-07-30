@@ -1,5 +1,5 @@
 import React, { FC, useMemo } from 'react';
-import { documentPrepareRoute, DocumentPreviewScreenProps, loadingRoute } from '@ondato/navigation/types';
+import { documentPrepareRoute, DocumentPreviewScreenProps, loadingRoute } from '../navigation/types';
 import {
   Button,
   Container,
@@ -7,21 +7,21 @@ import {
   FlowScreenContainer,
   PrimaryText,
   Svg,
-} from '@ondato/components';
+} from '../components';
 import { useTranslation } from 'react-i18next';
-import { center, flex1, row, spaceBetween } from '@ondato/theme/common';
+import { center, flex1, row, spaceBetween } from '../theme/common';
 import { ImageBackground, StyleSheet, View } from 'react-native';
-import { useUploadAdditionalDocument, useUploadDocument } from '@ondato/hooks';
-import { DeviceUtils, FileUtils } from '@ondato/utils';
-import { useTheme } from '@ondato/theme/hooks';
-import { BaseDocumentId, DocumentSideId, DocumentVariant } from '@ondato/modules/kyc/types';
-import { useAppSelector } from '@ondato/core/store';
+import { useUploadAdditionalDocument, useUploadDocument } from '../hooks';
+import { DeviceUtils, FileUtils } from '../utils';
+import { useTheme } from '../theme/hooks';
+import { BaseDocumentId, DocumentSideId, DocumentVariant } from '../modules/kyc/types';
+import { useAppSelector } from '../core/store';
 import {
   selectDocuments,
   selectIsSelfieEnabled,
   selectIsSelfieWithDocumentEnabled,
-} from '@ondato/modules/kyc/selectors';
-import { reset } from '@ondato/navigation/actions';
+} from '../modules/kyc/selectors';
+import { reset } from '../navigation/actions';
 import { IconName } from '../components/Svg';
 
 const DocumentPreviewScreen: FC<DocumentPreviewScreenProps> = (props) => {

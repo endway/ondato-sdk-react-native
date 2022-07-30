@@ -1,8 +1,8 @@
-import { useAppSelector } from '@ondato/core/store';
-import { selectKycId } from '@ondato/modules/kyc/selectors';
+import { useAppSelector } from '../core/store';
+import { selectKycId } from '../modules/kyc/selectors';
 import { useMutation } from 'react-query';
-import { KycClient } from '@ondato/api/clients';
-import { UploadDocumentRequest } from '@ondato/api/clients/kyc/types';
+import { KycClient } from '../api/clients';
+import { UploadDocumentRequest } from '../api/clients/kyc/types';
 
 const useUploadDocument = () => {
   const kycId = useAppSelector(selectKycId);

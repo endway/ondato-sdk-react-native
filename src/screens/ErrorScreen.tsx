@@ -1,13 +1,13 @@
 import React, { FC, useMemo } from 'react';
-import { ErrorScreenProps } from '@ondato/navigation/types';
-import { Button, Container, PrimaryText, ScreenContainer, Svg } from '@ondato/components';
-import { center, flex1 } from '@ondato/theme/common';
+import { ErrorScreenProps } from '../navigation/types';
+import { Button, Container, PrimaryText, ScreenContainer, Svg } from '../components';
+import { center, flex1 } from '../theme/common';
 import { useTranslation } from 'react-i18next';
-import { useRetryIdentification } from '@ondato/hooks';
-import { resetToDocumentSelectRoute } from '@ondato/navigation/actions';
-import { useTheme } from '@ondato/theme/hooks';
-import { CriticalReasons, RejectionReasons } from '@ondato/api/clients/kyc/constants';
-import { useCallbacks } from '@ondato/core/screens-config/hooks';
+import { useRetryIdentification } from '../hooks';
+import { resetToDocumentSelectRoute } from '../navigation/actions';
+import { useTheme } from '../theme/hooks';
+import { CriticalReasons, RejectionReasons } from '../api/clients/kyc/constants';
+import { useCallbacks } from '../core/screens-config/hooks';
 import { TFunction } from 'i18next';
 
 interface PageContent {

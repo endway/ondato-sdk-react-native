@@ -17,7 +17,7 @@ import {
   resultsWaitingRoute,
   selfieCaptureRoute,
   successRoute,
-} from '@ondato/navigation/types';
+} from '../navigation/types';
 import {
   ConsentScreen,
   DocumentCaptureScreen,
@@ -34,10 +34,10 @@ import {
   ResultsWaitingScreen,
   SelfieCaptureScreen,
   SuccessScreen,
-} from '@ondato/screens';
+} from '../screens';
 import { PhotoFile } from 'react-native-vision-camera';
-import { DocumentVariant } from '@ondato/modules/kyc/types';
-import { RejectionReasons } from '@ondato/api/clients/kyc/constants';
+import { DocumentVariant } from '../modules/kyc/types';
+import { RejectionReasons } from '../api/clients/kyc/constants';
 
 const RootStack = createStackNavigator<RootStackParamList>();
 

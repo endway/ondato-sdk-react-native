@@ -1,6 +1,6 @@
-import { useAppSelector } from '@ondato/core/store';
-import { selectKycId } from '@ondato/modules/kyc/selectors';
-import { KycClient } from '@ondato/api/clients';
+import { useAppSelector } from '../core/store';
+import { selectKycId } from '../modules/kyc/selectors';
+import { KycClient } from '../api/clients';
 import { useMutation } from 'react-query';
 
 const useCompleteIdentification = () => {

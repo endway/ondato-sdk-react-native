@@ -1,4 +1,4 @@
-import { LogActions } from '@ondato/api/clients/identity/constants';
+import { LogActions } from './constants';
 
 export interface SetupStep {
   type: string;

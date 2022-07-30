@@ -1,5 +1,5 @@
-import { ScreenRecordingUtils } from '@ondato/utils';
-import { LogActions } from '@ondato/api/clients/identity/constants';
+import { ScreenRecordingUtils } from '../utils';
+import { LogActions } from '../api/clients/identity/constants';
 import { useCallback } from 'react';
 import useLogging from './useLogging';
 

@@ -3,7 +3,7 @@ import {
   DocumentName as ApiDocumentName,
   DocumentSideName as ApiDocumentSideName,
   KycConfig as ApiKycConfig,
-} from '@ondato/api/clients/kyc/types';
+} from '../../api/clients/kyc/types';
 import { BackendConfig, Document, DocumentId, DocumentSideId } from './types';
 
 const isSelfieWithDocumentEnabled = (apiKycConfig: ApiKycConfig) => {

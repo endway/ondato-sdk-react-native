@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import { Camera, useCameraDevices } from 'react-native-vision-camera';
-import { LogActions } from '@ondato/api/clients/identity/constants';
+import { LogActions } from '../api/clients/identity/constants';
 import useLogging from './useLogging';
 
 const useCameraPermissions = () => {

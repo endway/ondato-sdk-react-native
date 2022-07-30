@@ -1,8 +1,8 @@
 import React, { FC, useEffect } from 'react';
 import { StyleProp, StyleSheet, TouchableOpacity, View, ViewStyle } from 'react-native';
-import { Theme } from '@ondato/theme/types';
-import { useTheme, useThemeAwareObject } from '@ondato/theme/hooks';
-import { flex1, row } from '@ondato/theme/common';
+import { Theme } from '../theme/types';
+import { useTheme, useThemeAwareObject } from '../theme/hooks';
+import { flex1, row } from '../theme/common';
 import Svg from './Svg';
 import PrimaryText from './PrimaryText';
 

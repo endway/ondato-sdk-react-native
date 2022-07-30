@@ -1,7 +1,7 @@
-import { useAppSelector } from '@ondato/core/store';
-import { selectIdentityVerificationId } from '@ondato/modules/kyc/selectors';
-import { IdentityClient } from '@ondato/api/clients';
-import { LogActions } from '@ondato/api/clients/identity/constants';
+import { useAppSelector } from '../core/store';
+import { selectIdentityVerificationId } from '../modules/kyc/selectors';
+import { IdentityClient } from '../api/clients';
+import { LogActions } from '../api/clients/identity/constants';
 import { useCallback } from 'react';
 
 const useLogging = () => {

@@ -1,4 +1,4 @@
-import httpClient from '@ondato/api/httpClient';
+import httpClient from '../../httpClient';
 import { GetFaceTecLicenseResponse } from './types';
 
 const baseUrl = '/face-tec';

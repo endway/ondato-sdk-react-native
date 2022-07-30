@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
-import { center, flex1 } from '@ondato/theme/common';
+import { center, flex1 } from '../theme/common';
 import { View } from 'react-native';
-import { useTheme } from '@ondato/theme/hooks';
+import { useTheme } from '../theme/hooks';
 import Svg from './Svg';
 
 const Splash: FC = () => {

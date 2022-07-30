@@ -1,8 +1,8 @@
-import { useAppSelector } from '@ondato/core/store';
-import { selectKycId } from '@ondato/modules/kyc/selectors';
+import { useAppSelector } from '../core/store';
+import { selectKycId } from '../modules/kyc/selectors';
 import { useMutation } from 'react-query';
-import { ScreenRecordingUtils } from '@ondato/utils';
-import { LogActions } from '@ondato/api/clients/identity/constants';
+import { ScreenRecordingUtils } from '../utils';
+import { LogActions } from '../api/clients/identity/constants';
 import useLogging from './useLogging';
 
 const useStopScreenRecording = () => {

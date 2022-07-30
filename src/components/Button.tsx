@@ -1,8 +1,8 @@
 import React, { FC } from 'react';
 import { StyleProp, StyleSheet, Text, TextStyle, TouchableOpacity, ViewStyle } from 'react-native';
-import { useThemeAwareObject } from '@ondato/theme/hooks';
-import { Theme } from '@ondato/theme/types';
-import { center } from '@ondato/theme/common';
+import { useThemeAwareObject } from 'src/theme/hooks';
+import { Theme } from 'src/theme/types';
+import { center } from 'src/theme/common';
 
 type Variant = 'primary' | 'secondary';
 

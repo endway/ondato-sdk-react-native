@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { API_URL } from '@ondato/env';
-import { store } from '@ondato/core/store';
+import { store } from '../core/store';
 import promise from 'promise';
 
 const httpClient = axios.create({

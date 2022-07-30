@@ -1,7 +1,7 @@
 import React, { Component, PropsWithChildren } from 'react';
 import { StyleSheet, View } from 'react-native';
-import { ToastMessage } from '@ondato/components';
-import { flex1 } from '@ondato/theme/common';
+import { ToastMessage } from '../../components';
+import { flex1 } from '../../theme/common';
 import { TFunction, withTranslation } from 'react-i18next';
 
 interface Props {

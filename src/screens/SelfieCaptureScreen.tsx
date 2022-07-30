@@ -1,8 +1,8 @@
 import React, { FC } from 'react';
-import { SelfieCaptureScreenProps } from '@ondato/navigation/types';
-import { FlowScreenContainer } from '@ondato/components';
-import { flex1 } from '@ondato/theme/common';
-import { useTheme } from '@ondato/theme/hooks';
+import { SelfieCaptureScreenProps } from '../navigation/types';
+import { FlowScreenContainer } from '../components';
+import { flex1 } from '../theme/common';
+import { useTheme } from '../theme/hooks';
 import { View } from 'react-native';
 
 const SelfieCaptureScreen: FC<SelfieCaptureScreenProps> = () => {

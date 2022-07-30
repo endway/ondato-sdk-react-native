@@ -1,8 +1,8 @@
 import React, { FC, useMemo } from 'react';
 import { TouchableOpacity, View } from 'react-native';
-import { flex1, row } from '@ondato/theme/common';
-import { useTheme } from '@ondato/theme/hooks';
-import { DocumentId } from '@ondato/modules/kyc/types';
+import { flex1, row } from '../theme/common';
+import { useTheme } from '../theme/hooks';
+import { DocumentId } from '../modules/kyc/types';
 import { useTranslation } from 'react-i18next';
 import { TFunction } from 'i18next';
 import PrimaryText from './PrimaryText';

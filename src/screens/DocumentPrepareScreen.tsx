@@ -3,7 +3,7 @@ import {
   documentCaptureRoute,
   DocumentPrepareScreenProps,
   selfieCaptureRoute,
-} from '@ondato/navigation/types';
+} from '../navigation/types';
 import {
   Button,
   Container,
@@ -11,15 +11,15 @@ import {
   MistakesListItem,
   PrimaryText,
   Svg,
-} from '@ondato/components';
-import { center, row, rowStart, spaceBetween } from '@ondato/theme/common';
+} from '../components';
+import { center, row, rowStart, spaceBetween } from '../theme/common';
 import { ScrollView, View } from 'react-native';
-import { Mistake } from '@ondato/api/types';
+import { Mistake } from '../api/types';
 import { useTranslation } from 'react-i18next';
-import { useTheme } from '@ondato/theme/hooks';
-import { BaseDocumentId, DocumentSideId } from '@ondato/modules/kyc/types';
-import { useLogging } from '@ondato/hooks';
-import { LogActions } from '@ondato/api/clients/identity/constants';
+import { useTheme } from '../theme/hooks';
+import { BaseDocumentId, DocumentSideId } from '../modules/kyc/types';
+import { useLogging } from '../hooks';
+import { LogActions } from '../api/clients/identity/constants';
 import { TFunction } from 'i18next';
 import { IconName } from '../components/Svg';
 

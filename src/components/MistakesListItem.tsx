@@ -1,8 +1,8 @@
 import React, { FC } from 'react';
 import { StyleSheet, View } from 'react-native';
-import { center } from '@ondato/theme/common';
-import { Mistake } from '@ondato/api/types';
-import { useTheme } from '@ondato/theme/hooks';
+import { center } from '../theme/common';
+import { Mistake } from '../api/types';
+import { useTheme } from '../theme/hooks';
 import PrimaryText from './PrimaryText';
 import Svg from './Svg';
 

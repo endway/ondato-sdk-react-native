@@ -1,14 +1,14 @@
 import React, { FC, useMemo } from 'react';
-import { languagesRoute, OnboardingScreenProps } from '@ondato/navigation/types';
-import { Button, Container, PrimaryText, ScreenContainer, Svg } from '@ondato/components';
+import { languagesRoute, OnboardingScreenProps } from '../navigation/types';
+import { Button, Container, PrimaryText, ScreenContainer, Svg } from '../components';
 import { ScrollView, StyleSheet, TouchableOpacity, View } from 'react-native';
 import { useTranslation } from 'react-i18next';
-import { center, flex1, flexEnd, row } from '@ondato/theme/common';
+import { center, flex1, flexEnd, row } from '../theme/common';
 import i18n from 'i18next';
-import { Theme } from '@ondato/theme/types';
-import { useTheme, useThemeAwareObject } from '@ondato/theme/hooks';
-import { useAppSelector } from '@ondato/core/store';
-import { selectAfterOnboardingRouteName } from '@ondato/modules/kyc/selectors';
+import { Theme } from '../theme/types';
+import { useTheme, useThemeAwareObject } from '../theme/hooks';
+import { useAppSelector } from '../core/store';
+import { selectAfterOnboardingRouteName } from '../modules/kyc/selectors';
 import { IconName } from '../components/Svg';
 
 interface OnboardingStep {

@@ -1,8 +1,8 @@
-import { useAppSelector } from '@ondato/core/store';
-import { IdentityClient } from '@ondato/api/clients';
+import { useAppSelector } from '../core/store';
+import { IdentityClient } from '../api/clients';
 import { useMutation } from 'react-query';
-import { ConsentRequest } from '@ondato/api/clients/identity/types';
-import { selectIdentityVerificationId } from '@ondato/modules/kyc/selectors';
+import { ConsentRequest } from '../api/clients/identity/types';
+import { selectIdentityVerificationId } from '../modules/kyc/selectors';
 
 const useConsent = () => {
   const identityVerificationId = useAppSelector(selectIdentityVerificationId);

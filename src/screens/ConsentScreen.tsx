@@ -1,15 +1,15 @@
 import React, { FC, useEffect, useState } from 'react';
-import { ConsentScreenProps } from '@ondato/navigation/types';
-import { Button, Container, PrimaryText, ScreenContainer, Svg } from '@ondato/components';
+import { ConsentScreenProps } from '../navigation/types';
+import { Button, Container, PrimaryText, ScreenContainer, Svg } from '../components';
 import { useTranslation } from 'react-i18next';
 import { Alert, NativeScrollEvent, NativeSyntheticEvent, ScrollView, StyleSheet, View } from 'react-native';
-import { center, itemsStart, row, spaceBetween } from '@ondato/theme/common';
-import { ScrollUtils } from '@ondato/utils';
-import { useAppSelector } from '@ondato/core/store';
-import { useConsent, useLogging } from '@ondato/hooks';
-import { useTheme } from '@ondato/theme/hooks';
-import { selectAfterConsentRouteName } from '@ondato/modules/kyc/selectors';
-import { LogActions } from '@ondato/api/clients/identity/constants';
+import { center, itemsStart, row, spaceBetween } from '../theme/common';
+import { ScrollUtils } from '../utils';
+import { useAppSelector } from '../core/store';
+import { useConsent, useLogging } from '../hooks';
+import { useTheme } from '../theme/hooks';
+import { selectAfterConsentRouteName } from '../modules/kyc/selectors';
+import { LogActions } from '../api/clients/identity/constants';
 
 const ConsentScreen: FC<ConsentScreenProps> = (props) => {
   const { navigation } = props;

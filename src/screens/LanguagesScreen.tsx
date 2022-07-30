@@ -1,11 +1,11 @@
 import React, { FC } from 'react';
-import { Container, ListSeparator, PrimaryText, ScreenContainer, Svg } from '@ondato/components';
+import { Container, ListSeparator, PrimaryText, ScreenContainer, Svg } from '../components';
 import { FlatList, ListRenderItemInfo, TouchableOpacity } from 'react-native';
-import { row } from '@ondato/theme/common';
-import { LanguagesScreenProps } from '@ondato/navigation/types';
+import { row } from '../theme/common';
+import { LanguagesScreenProps } from '../navigation/types';
 import i18n from 'i18next';
 import { useTranslation } from 'react-i18next';
-import { useTheme } from '@ondato/theme/hooks';
+import { useTheme } from '../theme/hooks';
 import { languages, Locales } from '../i18n/constants';
 import { Language } from '../i18n/types';
 

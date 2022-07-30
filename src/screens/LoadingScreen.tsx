@@ -1,6 +1,6 @@
 import React, { FC, useCallback, useEffect } from 'react';
-import { PrimaryText, ScreenContainer } from '@ondato/components';
-import { center } from '@ondato/theme/common';
+import { PrimaryText, ScreenContainer } from '../components';
+import { center } from '../theme/common';
 import { ActivityIndicator } from 'react-native';
 import {
   errorRoute,
@@ -8,13 +8,13 @@ import {
   registrationSuccessRoute,
   resultsWaitingRoute,
   successRoute,
-} from '@ondato/navigation/types';
-import { useCompleteIdentification } from '@ondato/hooks';
+} from '../navigation/types';
+import { useCompleteIdentification } from '../hooks';
 import { useTranslation } from 'react-i18next';
-import { useAppSelector } from '@ondato/core/store';
-import { selectIsResultsWaitingEnabled } from '@ondato/modules/kyc/selectors';
-import { useTheme } from '@ondato/theme/hooks';
-import { reset } from '@ondato/navigation/actions';
+import { useAppSelector } from '../core/store';
+import { selectIsResultsWaitingEnabled } from '../modules/kyc/selectors';
+import { useTheme } from '../theme/hooks';
+import { reset } from '../navigation/actions';
 
 const LoadingScreen: FC<LoadingScreenProps> = (props) => {
   const { navigation } = props;

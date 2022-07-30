@@ -1,10 +1,10 @@
 import React, { FC } from 'react';
-import { Button, Container, ScreenContainer, ScreenHeader, Svg } from '@ondato/components';
-import { center, flex1, row, spaceBetween } from '@ondato/theme/common';
-import { QuitConfirmationScreenProps } from '@ondato/navigation/types';
+import { Button, Container, ScreenContainer, ScreenHeader, Svg } from '../components';
+import { center, flex1, row, spaceBetween } from '../theme/common';
+import { QuitConfirmationScreenProps } from '../navigation/types';
 import { useTranslation } from 'react-i18next';
-import { useTheme } from '@ondato/theme/hooks';
-import { useCallbacks } from '@ondato/core/screens-config/hooks';
+import { useTheme } from '../theme/hooks';
+import { useCallbacks } from '../core/screens-config/hooks';
 
 const QuitConfirmationScreen: FC<QuitConfirmationScreenProps> = (props) => {
   const { navigation } = props;

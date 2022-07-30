@@ -1,9 +1,9 @@
 import React, { FC } from 'react';
 import { StyleProp, StyleSheet, View, ViewStyle } from 'react-native';
 import SafeAreaView from 'react-native-safe-area-view';
-import { flex1 } from '@ondato/theme/common';
-import { Theme } from '@ondato/theme/types';
-import { useThemeAwareObject } from '@ondato/theme/hooks';
+import { flex1 } from '../theme/common';
+import { Theme } from '../theme/types';
+import { useThemeAwareObject } from '../theme/hooks';
 import FullScreenLoader from './FullScreenLoader';
 
 export interface ScreenContainerProps {

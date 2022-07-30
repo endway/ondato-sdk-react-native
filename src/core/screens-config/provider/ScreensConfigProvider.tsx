@@ -1,9 +1,9 @@
 import React, { FC, PropsWithChildren, useCallback, useEffect, useMemo } from 'react';
-import { Callbacks, UserConfig } from '@ondato/modules/kyc/types';
+import { Callbacks, UserConfig } from '../../../modules/kyc/types';
 import i18n from 'i18next';
-import { setIdentityVerificationId, setUserConfig } from '@ondato/modules/kyc/slice';
-import { useAppDispatch } from '@ondato/core/store';
-import { Locales } from '@ondato/i18n/constants';
+import { setIdentityVerificationId, setUserConfig } from '../../../modules/kyc/slice';
+import { useAppDispatch } from '../../../core/store';
+import { Locales } from '../../../i18n/constants';
 import ScreensConfigContext, { ScreensConfigContextValue } from './ScreensConfigContext';
 
 interface Props extends UserConfig, Callbacks {

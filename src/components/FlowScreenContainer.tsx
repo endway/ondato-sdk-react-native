@@ -1,10 +1,10 @@
 import React, { FC } from 'react';
 import { NavigationProp, useNavigation } from '@react-navigation/native';
-import { RootStackParamList } from '@ondato/navigation/RootNavigator';
-import { row } from '@ondato/theme/common';
+import { RootStackParamList } from '../navigation/RootNavigator';
+import { row } from '../theme/common';
 import { StyleProp, TouchableOpacity, ViewStyle } from 'react-native';
-import { quitConfirmationRoute } from '@ondato/navigation/types';
-import { useTheme } from '@ondato/theme/hooks';
+import { quitConfirmationRoute } from '../navigation/types';
+import { useTheme } from '../theme/hooks';
 import ScreenContainer from './ScreenContainer';
 import Container from './Container';
 import Svg from './Svg';

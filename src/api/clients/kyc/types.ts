@@ -1,4 +1,4 @@
-import { RejectionReasons } from '@ondato/api/clients/kyc/constants';
+import { RejectionReasons } from './constants';
 
 export type PassportSideName = 'FrontCover' | 'DataPage';
 export type IdCardSideName = 'Front' | 'Back';

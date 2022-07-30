@@ -1,24 +1,24 @@
 import React, { FC, useMemo, useRef } from 'react';
-import { Button, Camera, Container, FlowScreenContainer, PrimaryText, Svg } from '@ondato/components';
+import { Button, Camera, Container, FlowScreenContainer, PrimaryText, Svg } from '../components';
 import {
   DocumentCaptureScreenProps,
   documentPrepareRoute,
   documentPreviewRoute,
   loadingRoute,
-} from '@ondato/navigation/types';
+} from '../navigation/types';
 import { useIsFocused } from '@react-navigation/native';
 import { useTranslation } from 'react-i18next';
 import { StyleSheet, TouchableOpacity, View } from 'react-native';
-import { flex1, row, spaceBetween } from '@ondato/theme/common';
-import { Theme } from '@ondato/theme/types';
+import { flex1, row, spaceBetween } from '../theme/common';
+import { Theme } from '../theme/types';
 import { PhotoFile, Camera as RNCamera } from 'react-native-vision-camera';
-import { useThemeAwareObject } from '@ondato/theme/hooks';
-import { useAppSelector } from '@ondato/core/store';
-import { useTheme } from '@ondato/theme/hooks';
-import { selectDocuments, selectIsSelfieWithDocumentEnabled } from '@ondato/modules/kyc/selectors';
-import { BaseDocumentId, DocumentSideId, DocumentVariant } from '@ondato/modules/kyc/types';
+import { useThemeAwareObject } from '../theme/hooks';
+import { useAppSelector } from '../core/store';
+import { useTheme } from '../theme/hooks';
+import { selectDocuments, selectIsSelfieWithDocumentEnabled } from '../modules/kyc/selectors';
+import { BaseDocumentId, DocumentSideId, DocumentVariant } from '../modules/kyc/types';
 import { TFunction } from 'i18next';
-import { reset } from '@ondato/navigation/actions';
+import { reset } from '../navigation/actions';
 import { IconName } from '../components/Svg';
 
 const DocumentCaptureScreen: FC<DocumentCaptureScreenProps> = (props) => {

@@ -1,10 +1,10 @@
 import React, { FC } from 'react';
-import { RegistrationSuccessScreenProps } from '@ondato/navigation/types';
-import { Button, Container, PrimaryText, ScreenContainer, Svg } from '@ondato/components';
-import { center, flex1 } from '@ondato/theme/common';
+import { RegistrationSuccessScreenProps } from '../navigation/types';
+import { Button, Container, PrimaryText, ScreenContainer, Svg } from '../components';
+import { center, flex1 } from '../theme/common';
 import { useTranslation } from 'react-i18next';
-import { useTheme } from '@ondato/theme/hooks';
-import { useCallbacks } from '@ondato/core/screens-config/hooks';
+import { useTheme } from '../theme/hooks';
+import { useCallbacks } from '../core/screens-config/hooks';
 
 const RegistrationSuccessScreen: FC<RegistrationSuccessScreenProps> = () => {
   const theme = useTheme();

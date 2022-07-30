@@ -1,4 +1,4 @@
-import httpClient from '@ondato/api/httpClient';
+import httpClient from '../../httpClient';
 import {
   GetKycIdRequest,
   GetKycIdResponse,

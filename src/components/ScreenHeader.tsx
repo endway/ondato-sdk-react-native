@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { StyleProp, ViewStyle } from 'react-native';
-import { useTheme } from '@ondato/theme/hooks';
+import { useTheme } from '../theme/hooks';
 import Container from './Container';
 import PrimaryText from './PrimaryText';
 
