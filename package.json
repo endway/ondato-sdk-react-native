@@ -5,7 +5,7 @@
   "types": "lib/typescript/src/index.d.ts",
   "react-native": "src/index.tsx",
   "source": "src/index",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "https://github.com/ondato/ondato-sdk-react-native",
   "author": "Ondato",
   "license": "MIT",
