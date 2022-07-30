@@ -1,8 +1,8 @@
 import React, { FC } from 'react';
 import { StyleProp, StyleSheet, Text, TextStyle, TouchableOpacity, ViewStyle } from 'react-native';
-import { useThemeAwareObject } from 'src/theme/hooks';
-import { Theme } from 'src/theme/types';
-import { center } from 'src/theme/common';
+import { useThemeAwareObject } from '../theme/hooks';
+import { Theme } from '../theme/types';
+import { center } from '../theme/common';
 
 type Variant = 'primary' | 'secondary';
 
