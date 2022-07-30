@@ -25,6 +25,7 @@
     "i18next": "^21.6.14",
     "lottie-ios": "^3.2.3",
     "lottie-react-native": "^5.0.1",
+    "module-alias": "^2.2.2",
     "react": "17.0.2",
     "react-i18next": "^11.16.1",
     "react-native": "0.67.4",
@@ -85,5 +86,19 @@
   "eslintIgnore": [
     "node_modules/",
     "lib/"
-  ]
+  ],
+  "_moduleAliases": {
+    "@ondato/assets/*": "assets/*",
+    "@ondato/api/*": "src/api/*",
+    "@ondato/components": "src/components",
+    "@ondato/config": "src/config",
+    "@ondato/core": "src/core",
+    "@ondato/hooks": "src/hooks",
+    "@ondato/i18n": "src/i18n",
+    "@ondato/modules": "src/modules",
+    "@ondato/navigation": "src/navigation",
+    "@ondato/screens": "src/screens",
+    "@ondato/theme": "src/theme",
+    "@ondato/utils": "src/utils"
+  }
 }
