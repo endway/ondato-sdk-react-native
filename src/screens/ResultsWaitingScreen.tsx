@@ -8,7 +8,7 @@ import { useLogging, useResultsWaiting } from '../hooks';
 import { LogActions } from '../api/clients/identity/constants';
 import { RejectionReasons } from '../api/clients/kyc/constants';
 import { reset } from '../navigation/actions';
-const encryptionAnimation = require('../assets/animations/encryption.json');
+const encryptionAnimation = require('../../assets/animations/encryption.json');
 
 const ResultsWaitingScreen: FC<ResultsWaitingScreenProps> = (props) => {
   const { navigation } = props;
