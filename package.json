@@ -72,7 +72,8 @@
   },
   "files": [
     "src",
-    "lib"
+    "lib",
+    "assets"
   ],
   "react-native-builder-bob": {
     "source": "src",
