@@ -1,7 +1,8 @@
 import axios from 'axios';
-import { API_URL } from '@ondato/env';
 import { store } from '../core/store';
 import promise from 'promise';
+
+const API_URL = "https://app-idvsapi-snd-ond.azurewebsites.net/v1";
 
 const httpClient = axios.create({
   baseURL: API_URL,
